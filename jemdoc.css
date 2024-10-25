@@ -7,21 +7,10 @@ table#tlayout {
 }
 
 body {
-    background: white;
-    font-family: Georgia, serif;
-    padding-bottom: 8px;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.container {
-    max-width: 800px;  /* 控制内容宽度 */
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;  /* 保证 padding 不会影响宽度 */
+	background: white;
+	font-family: Georgia, serif;
+	padding-bottom: 8px;
+	margin: 0;
 }
 
 
