@@ -7,11 +7,23 @@ table#tlayout {
 }
 
 body {
-	background: white;
-	font-family: Georgia, serif;
-	padding-bottom: 8px;
-	margin: 0;
+    background: white;
+    font-family: Georgia, serif;
+    padding-bottom: 8px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
+
+.container {
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 
 #layout-menu {
 	background: #f6f6f6;
