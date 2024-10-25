@@ -15,34 +15,32 @@ body {
 }
 
 #layout-menu {
-	background: #f6f6f6;
-	border: 1px solid #dddddd;
+	background: white; /* 背景设为白色 */
+	border: none; /* 取消边框 */
 	padding-top: 0.5em;
 	padding-left: 8px;
 	padding-right: 8px;
 	font-size: 1.0em;
-	width: auto;
+	width: 100%; /* 设置宽度为100%，使其占满整个顶部 */
 	white-space: nowrap;
+    text-align: left;
+    vertical-align: top;
+    position: absolute; /* 改变定位模式，使菜单浮动到页面顶部 */
+    top: 0; /* 将菜单位置设为页面顶部 */
+    left: 0; /* 将菜单与左侧对齐 */
+}
+
+#layout-content {
+    margin-top: 3em; /* 确保内容不会与顶部菜单重叠 */
+    padding-top: 1em;
+    padding-left: 1.0em;
+    padding-right: 1.0em;
+    border: none;
+    background: white;
     text-align: left;
     vertical-align: top;
 }
 
-#layout-menu td {
-	background: #f4f4f4;
-    vertical-align: top;
-}
-
-#layout-content {
-	width: 90%; /* 设置主要内容区域宽度为80% */
-	margin: 0 auto; /* 确保内容居中 */
-	padding-top: 0.0em;
-	padding-left: 1.0em;
-	padding-right: 1.0em;
-	border: none;
-	background: white;
-	text-align: left;
-	vertical-align: top;
-}
 
 #layout-menu a {
 	line-height: 1.5em;
