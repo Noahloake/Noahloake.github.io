@@ -1,19 +1,23 @@
 /* Default css file for jemdoc. */
 
-table#tlayout {
-    border: none;
-    border-collapse: separate;
-    background: white;
-    width: 100%; /* Added to make the table occupy the full width of the screen */
-}
-
 body {
     background: white;
     font-family: Georgia, serif;
     padding-bottom: 8px;
     margin: 0;
+    font-size: 14px; /* 设置全局字体大小为14px */
 }
 
+/* 主布局表格 */
+table#tlayout {
+    border: none;
+    border-collapse: separate;
+    background: white;
+    width: 100%; /* 表格宽度占满屏幕 */
+    table-layout: fixed; /* 固定表格布局 */
+}
+
+/* 左侧菜单的单元格 */
 #layout-menu {
     background: #f6f6f6;
     border: 1px solid #dddddd;
@@ -21,17 +25,20 @@ body {
     padding-left: 8px;
     padding-right: 8px;
     font-size: 1.0em;
-    width: auto;
+    width: 200px; /* 固定菜单宽度 */
     white-space: nowrap;
     text-align: left;
     vertical-align: top;
 }
 
+/* 菜单所在的 <td> 单元格 */
 #layout-menu td {
     background: #f4f4f4;
     vertical-align: top;
+    width: 200px; /* 确保菜单单元格宽度固定 */
 }
 
+/* 右侧正文内容的单元格 */
 #layout-content {
     padding-top: 0.0em;
     padding-left: 1.0em;
@@ -40,10 +47,10 @@ body {
     background: white;
     text-align: left;
     vertical-align: top;
-    width: 90%;            /* Set the width to 90% of the screen */
-    margin-left: auto;     /* Center-align the content */
-    margin-right: auto;    /* Center-align the content */
-    font-size: 14px;       /* Set font size to 14px */
+    width: 90%;            /* 设置内容宽度为屏幕的90% */
+    margin-left: auto;     /* 居中对齐 */
+    margin-right: auto;    /* 居中对齐 */
+    display: block;        /* 转换为块级元素以应用宽度和居中 */
 }
 
 #layout-menu a {
@@ -264,107 +271,4 @@ div.infoblock p {
     margin-bottom: 0em;
 }
 
-div.infoblock li p, div.infoblock dd p {
-    margin-bottom: 0.5em;
-}
-
-div.infoblock p + p {
-    margin-top: 0.8em;
-}
-
-div.codeblock > div.blockcontent {
-    background: #f6f6f6;
-}
-
-span.pycommand {
-    color: #000070;
-}
-
-span.statement {
-    color: #008800;
-}
-span.builtin {
-    color: #000088;
-}
-span.special {
-    color: #990000;
-}
-span.operator {
-    color: #880000;
-}
-span.error {
-    color: #aa0000;
-}
-span.comment, span.comment > *, span.string, span.string > * {
-    color: #606060;
-}
-
-@media print {
-    #layout-menu { display: none; }
-}
-
-#fwtitle {
-    margin: 2px;
-}
-
-#fwtitle #toptitle {
-    padding-left: 0.5em;
-    margin-bottom: 0.5em;
-}
-
-#layout-content h1:first-child, #layout-content h2:first-child, #layout-content h3:first-child {
-    margin-top: -0.7em;
-}
-
-div#toptitle h1, #layout-content div#toptitle h1 {
-    margin-bottom: 0.0em;
-    padding-bottom: 0.1em;
-    padding-top: 0;
-    margin-top: 0.5em;
-    border-bottom: none;
-}
-
-img.eq {
-    padding: 0;
-    padding-left: 0.1em;
-    padding-right: 0.1em;
-    margin: 0;
-}
-
-img.eqwl {
-    padding-left: 2em;
-    padding-top: 0.6em;
-    padding-bottom: 0.2em;
-    margin: 0;
-}
-
-table {
-    border: 2px solid black;
-    border-collapse: collapse;
-}
-
-td {
-    padding: 2px;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    text-align: center;
-    border: 1px solid gray;
-}
-
-table + table {
-    margin-top: 1em;
-}
-
-tr.heading {
-    font-weight: bold;
-    border-bottom: 2px solid black;
-}
-
-img {
-    border: none;
-}
-
-table.imgtable, table.imgtable td {
-    border: none;
-    text-align: left;
-}
+div.infoblock li p, div.infoblock 
