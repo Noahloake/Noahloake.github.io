@@ -10,7 +10,8 @@ body {
 	background: white;
 	font-family: Georgia, serif;
 	padding-bottom: 8px;
-	margin: 0;
+	margin: 0 auto; /* 确保居中 */
+	width: 80%; /* 设置页面宽度为屏幕的80% */
 }
 
 #layout-menu {
