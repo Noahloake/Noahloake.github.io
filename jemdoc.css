@@ -21,6 +21,27 @@ body :lang(zh) {
 
 
 /* 菜单栏的样式，包括背景色、边框、内填充和字体大小 */
+#layout-menu {
+	background: #f6f6f6;
+	border: 1px solid #dddddd;
+	padding-top: 0.5em;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-size: 1.0em;
+	width: auto;
+	white-space: nowrap;
+    text-align: left;
+    vertical-align: top;
+}
+
+
+/* 设置菜单栏单元格的背景和垂直对齐方式 */
+#layout-menu td {
+	background: #f4f4f4; /* 背景色为浅灰色 */
+    vertical-align: top; /* 单元格内容顶端对齐 */
+}
+
+/* 内容区域样式设置 */
 #layout-content {
     width: 90%; /* 设置整体宽度为屏幕的90% */
     margin: 0 auto; /* 将整体区域居中显示 */
@@ -33,25 +54,6 @@ body :lang(zh) {
     vertical-align: top; /* 顶端对齐 */
 }
 
-
-/* 设置菜单栏单元格的背景和垂直对齐方式 */
-#layout-menu td {
-	background: #f4f4f4; /* 背景色为浅灰色 */
-    vertical-align: top; /* 单元格内容顶端对齐 */
-}
-
-/* 内容区域样式设置 */
-#layout-content {
-	padding-top: 0.0em; /* 顶部内填充设为0 */
-	padding-left: 1.0em; /* 左侧内填充1em */
-	padding-right: 1.0em; /* 右侧内填充1em */
-    border: none; /* 无边框 */
-    background: white; /* 背景颜色为白色 */
-    text-align: left; /* 内部内容左对齐 */
-    vertical-align: top; /* 顶端对齐 */
-    width: 90%; /* 设置宽度为屏幕宽度的90% */
-    margin: 0 auto; /* 使整体区域居中 */
-}
 
 /* 菜单栏链接样式，包括行高和左边距 */
 #layout-menu a {
