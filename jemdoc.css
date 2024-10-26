@@ -9,7 +9,7 @@ table#tlayout {
 body {
 	background: white; /* 背景颜色设为白色 */
 	font-family: Georgia, serif; /* 默认字体为Georgia，适用于英文 */
-	font-size: 16px; /* 设置默认字体大小为16px */
+	font-size: 18px; /* 设置默认字体大小为18px */
 	padding-bottom: 8px; /* 底部填充8px */
 	margin: 0; /* 去除默认的外边距 */
 }
