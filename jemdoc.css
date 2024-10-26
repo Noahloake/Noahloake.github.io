@@ -21,18 +21,18 @@ body :lang(zh) {
 
 
 /* 菜单栏的样式，包括背景色、边框、内填充和字体大小 */
-#layout-menu {
-	background: #f6f6f6; /* 菜单栏背景颜色为浅灰色 */
-	border: 1px solid #dddddd; /* 边框颜色为更浅的灰色 */
-	padding-top: 0.5em; /* 顶部内填充0.5em */
-	padding-left: 8px; /* 左侧内填充8px */
-	padding-right: 8px; /* 右侧内填充8px */
-	font-size: 1.0em; /* 字体大小1em */
-	width: auto; /* 自动宽度，适应内容 */
-	white-space: nowrap; /* 禁止换行，确保菜单单行显示 */
-    text-align: left; /* 菜单内容左对齐 */
-    vertical-align: top; /* 垂直方向上对齐到顶部 */
+#layout-content {
+    width: 90%; /* 设置整体宽度为屏幕的90% */
+    margin: 0 auto; /* 将整体区域居中显示 */
+    padding-top: 0.0em; /* 顶部内填充设为0 */
+    padding-left: 1.0em; /* 左侧内填充1em */
+    padding-right: 1.0em; /* 右侧内填充1em */
+    border: none; /* 无边框 */
+    background: white; /* 背景颜色为白色 */
+    text-align: left; /* 保持内容文本左对齐 */
+    vertical-align: top; /* 顶端对齐 */
 }
+
 
 /* 设置菜单栏单元格的背景和垂直对齐方式 */
 #layout-menu td {
