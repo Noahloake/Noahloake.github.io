@@ -9,7 +9,7 @@ table#tlayout {
 body {
 	background: white; /* 背景颜色设为白色 */
 	font-family: Georgia, serif; /* 默认字体为Georgia，适用于英文 */
-	font-size: 14px; /* 设置默认字体大小为14px */
+	font-size: 16px; /* 设置默认字体大小为16px */
 	padding-bottom: 8px; /* 底部填充8px */
 	margin: 0; /* 去除默认的外边距 */
 }
@@ -47,11 +47,12 @@ body :lang(zh) {
 	padding-right: 1.0em; /* 右侧内填充1em */
     border: none; /* 无边框 */
     background: white; /* 背景颜色为白色 */
-    text-align: center; /* 正文内容居中对齐 */
+    text-align: left; /* 内部内容左对齐 */
     vertical-align: top; /* 顶端对齐 */
     width: 90%; /* 设置宽度为屏幕宽度的90% */
-    margin: 0 auto; /* 自动分配左右边距，使内容居中 */
+    margin: 0 auto; /* 使整体区域居中 */
 }
+
 
 
 /* 菜单栏链接样式，包括行高和左边距 */
