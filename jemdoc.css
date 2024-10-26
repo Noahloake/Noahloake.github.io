@@ -1,367 +1,456 @@
-/* Default css file for jemdoc. */
-
+/* 表格布局设置，主要是设置表格的背景颜色和边框样式 */
 table#tlayout {
-    border: none;
-    border-collapse: separate;
-    background: white;
+    border: none; /* 无边框 */
+    border-collapse: separate; /* 表格单元格保持分开，不合并边框 */
+    background: white; /* 设置表格背景为白色 */
 }
 
+/* 设置网页主体的背景颜色和字体 */
 body {
-	background: white;
-	font-family: Georgia, serif;
-	padding-bottom: 8px;
-	margin: 0;
+	background: white; /* 背景颜色设为白色 */
+	font-family: Georgia, serif; /* 默认字体为Georgia，适用于英文 */
+	font-size: 14px; /* 设置默认字体大小为14px */
+	padding-bottom: 8px; /* 底部填充8px */
+	margin: 0; /* 去除默认的外边距 */
 }
 
+/* 中文字体设置，优先使用 Source Han Serif */
+body :lang(zh) {
+    font-family: "Source Han Serif", Georgia, serif; /* 中文使用思源宋体，英文保持为Georgia */
+}
+
+
+/* 菜单栏的样式，包括背景色、边框、内填充和字体大小 */
 #layout-menu {
-	background: #f6f6f6;
-	border: 1px solid #dddddd;
-	padding-top: 0.5em;
-	padding-left: 8px;
-	padding-right: 8px;
-	font-size: 1.0em;
-	width: auto;
-	white-space: nowrap;
-    text-align: left;
-    vertical-align: top;
+	background: #f6f6f6; /* 菜单栏背景颜色为浅灰色 */
+	border: 1px solid #dddddd; /* 边框颜色为更浅的灰色 */
+	padding-top: 0.5em; /* 顶部内填充0.5em */
+	padding-left: 8px; /* 左侧内填充8px */
+	padding-right: 8px; /* 右侧内填充8px */
+	font-size: 1.0em; /* 字体大小1em */
+	width: auto; /* 自动宽度，适应内容 */
+	white-space: nowrap; /* 禁止换行，确保菜单单行显示 */
+    text-align: left; /* 菜单内容左对齐 */
+    vertical-align: top; /* 垂直方向上对齐到顶部 */
 }
 
+/* 设置菜单栏单元格的背景和垂直对齐方式 */
 #layout-menu td {
-	background: #f4f4f4;
-    vertical-align: top;
+	background: #f4f4f4; /* 背景色为浅灰色 */
+    vertical-align: top; /* 单元格内容顶端对齐 */
 }
 
+/* 内容区域样式设置 */
 #layout-content {
-	padding-top: 0.0em;
-	padding-left: 1.0em;
-	padding-right: 1.0em;
-    border: none;
-    background: white;
-    text-align: left;
-    vertical-align: top;
+	padding-top: 0.0em; /* 顶部内填充设为0 */
+	padding-left: 1.0em; /* 左侧内填充1em */
+	padding-right: 1.0em; /* 右侧内填充1em */
+    border: none; /* 无边框 */
+    background: white; /* 背景颜色为白色 */
+    text-align: center; /* 正文内容居中对齐 */
+    vertical-align: top; /* 顶端对齐 */
+    width: 90%; /* 设置宽度为屏幕宽度的90% */
+    margin: 0 auto; /* 自动分配左右边距，使内容居中 */
 }
 
+
+/* 菜单栏链接样式，包括行高和左边距 */
 #layout-menu a {
-	line-height: 1.5em;
-	margin-left: 0.5em;
+	line-height: 1.5em; /* 行高1.5em */
+	margin-left: 0.5em; /* 左边距0.5em */
 }
 
+/* 等宽字体背景设置，主要用于突出显示代码等内容 */
 tt {
-    background: #ffffdd;
+    background: #ffffdd; /* 背景颜色为浅黄色 */
 }
 
+/* 等宽字体和预格式文本的字体样式设置 */
 pre, tt {
-	font-size: 90%;
-	font-family: monaco, monospace;
+	font-size: 90%; /* 字体大小为正常字体的90% */
+	font-family: monaco, monospace; /* 优先使用monaco字体，否则采用等宽字体 */
 }
 
+/* 链接样式设置，包含颜色和去除默认的下划线 */
 a, a > tt {
-	color: #002FA7;
-	text-decoration: none;
+	color: #002FA7; /* 链接颜色为深蓝 */
+	text-decoration: none; /* 去除默认下划线 */
 }
 
+/* 链接悬停样式，增加底部灰色虚线 */
 a:hover {
-	border-bottom: 1px gray dotted;
+	border-bottom: 1px gray dotted; /* 悬停时显示灰色虚线下划线 */
 }
 
+/* 当前页链接样式，底部为灰色实线下划线 */
 #layout-menu a.current:link, #layout-menu a.current:visited {
-	color: #022b6d;
-	border-bottom: 1px gray solid;
+	color: #022b6d; /* 链接颜色为较深蓝色 */
+	border-bottom: 1px gray solid; /* 灰色实线下划线 */
 }
+
+/* 未访问链接、访问过链接和悬停状态的颜色 */
 #layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
-	color: #527bbd;
-	text-decoration: none;
+	color: #527bbd; /* 链接颜色为较浅蓝色 */
+	text-decoration: none; /* 无下划线 */
 }
+
+/* 链接悬停时去除下划线 */
 #layout-menu a:hover {
 	text-decoration: none;
 }
 
+/* 菜单类别的样式设置，包括底边灰线、顶部填充和字体加粗 */
 div.menu-category {
-	border-bottom: 1px solid gray;
-	margin-top: 0.8em;
-	padding-top: 0.2em;
-	padding-bottom: 0.1em;
-	font-weight: bold;
+	border-bottom: 1px solid gray; /* 底边灰线 */
+	margin-top: 0.8em; /* 顶部外边距0.8em */
+	padding-top: 0.2em; /* 顶部内填充0.2em */
+	padding-bottom: 0.1em; /* 底部内填充0.1em */
+	font-weight: bold; /* 字体加粗 */
 }
 
+/* 菜单项的缩进样式 */
 div.menu-item {
-	padding-left: 16px;
-	text-indent: -16px;
+	padding-left: 16px; /* 左填充16px */
+	text-indent: -16px; /* 负缩进，抵消填充效果 */
 }
 
+/* 页面顶部标题样式 */
 div#toptitle {
-	padding-bottom: 0.2em;
-	margin-bottom: 1.5em;
-	border-bottom: 3px double gray;
+	padding-bottom: 0.2em; /* 底部内填充 */
+	margin-bottom: 1.5em; /* 底部外边距 */
+	border-bottom: 3px double gray; /* 底部双线边框 */
 }
 
-/* Reduce space if we begin the page with a title. */
+/* 减少页面标题顶部的间距 */
 div#toptitle + h2, div#toptitle + h3 {
-	margin-top: -0.7em;
+	margin-top: -0.7em; /* 负外边距，减小顶部空间 */
 }
 
+/* 页面副标题的样式 */
 div#subtitle {
-	margin-top: 0.0em;
-	margin-bottom: 0.0em;
-	padding-top: 0em;
-	padding-bottom: 0.1em;
+	margin-top: 0.0em; /* 顶部外边距0 */
+	margin-bottom: 0.0em; /* 底部外边距0 */
+	padding-top: 0em; /* 顶部填充0 */
+	padding-bottom: 0.1em; /* 底部填充0.1em */
 }
 
+/* 设置斜体字的样式 */
 em {
-	font-style: italic;
+	font-style: italic; /* 设置字体为斜体 */
 }
 
+/* 设置加粗字体的样式 */
 strong {
-	font-weight: bold;
+	font-weight: bold; /* 字体加粗 */
 }
 
-
+/* 标题的样式设置，包括颜色、间距和边框 */
 h1, h2, h3 {
-	color: #527bbd;
-	margin-top: 0.7em;
-	margin-bottom: 0.3em;
-	padding-bottom: 0.2em;
-	line-height: 1.0;
-	padding-top: 0.5em;
-	border-bottom: 1px solid #aaaaaa;
+	color: #527bbd; /* 标题颜色为较浅的蓝色 */
+	margin-top: 0.7em; /* 顶部外边距0.7em */
+	margin-bottom: 0.3em; /* 底部外边距0.3em */
+	padding-bottom: 0.2em; /* 底部填充0.2em */
+	line-height: 1.0; /* 行高 */
+	padding-top: 0.5em; /* 顶部填充0.5em */
+	border-bottom: 1px solid #aaaaaa; /* 底边灰线 */
 }
 
+/* 一级标题样式 */
 h1 {
-	font-size: 165%;
+	font-size: 165%; /* 字体大小1.65倍 */
 }
 
+/* 二级标题样式 */
 h2 {
-	padding-top: 0.8em;
-	font-size: 125%;
+	padding-top: 0.8em; /* 顶部填充0.8em */
+	font-size: 125%; /* 字体大小1.25倍 */
 }
 
+/* 二级标题之后的三级标题样式 */
 h2 + h3 {
-    padding-top: 0.2em;
+    padding-top: 0.2em; /* 顶部填充0.2em */
 }
 
+/* 三级标题样式 */
 h3 {
-	font-size: 110%;
-	border-bottom: none;
+	font-size: 110%; /* 字体大小1.1倍 */
+	border-bottom: none; /* 无底边 */
 }
-
+/* 段落样式，包括行距和外边距设置 */
 p {
-	margin-top: 0.0em;
-	margin-bottom: 0.8em;
-	padding: 0;
-	line-height: 1.3;
+	margin-top: 0.0em; /* 段落顶部外边距 */
+	margin-bottom: 0.8em; /* 段落底部外边距 */
+	padding: 0; /* 无内边距 */
+	line-height: 1.3; /* 行高设为1.3倍，便于阅读 */
 }
 
+/* 预格式文本的样式 */
 pre {
-	padding: 0;
-	margin: 0;
+	padding: 0; /* 无内边距 */
+	margin: 0; /* 无外边距 */
 }
 
+/* 页脚样式，包括字体大小、边框和颜色 */
 div#footer {
-	font-size: small;
-	border-top: 1px solid #c0c0c0;
-	padding-top: 0.1em;
-	margin-top: 4.0em;
-	color: #c0c0c0;
+	font-size: small; /* 较小的字体 */
+	border-top: 1px solid #c0c0c0; /* 顶部灰色边框 */
+	padding-top: 0.1em; /* 顶部内填充 */
+	margin-top: 4.0em; /* 顶部外边距 */
+	color: #c0c0c0; /* 文本颜色为灰色 */
 }
 
+/* 页脚链接颜色设置 */
 div#footer a {
-	color: #80a0b0;
+	color: #80a0b0; /* 链接颜色为浅蓝色 */
 }
 
+/* 页脚文本浮动位置设置 */
 div#footer-text {
-	float: left;
-	padding-bottom: 8px;
+	float: left; /* 文本左浮动 */
+	padding-bottom: 8px; /* 底部内填充 */
 }
 
+/* 列表的样式设置，包括外边距和内填充 */
 ul, ol, dl {
-	margin-top: 0.2em;
-	padding-top: 0;
-	margin-bottom: 0.8em;
+	margin-top: 0.2em; /* 列表顶部外边距 */
+	padding-top: 0; /* 无顶部内填充 */
+	margin-bottom: 0.8em; /* 列表底部外边距 */
 }
 
+/* 列表标题的样式设置 */
 dt {
-	margin-top: 0.5em;
-	margin-bottom: 0;
+	margin-top: 0.5em; /* 顶部外边距 */
+	margin-bottom: 0; /* 底部外边距 */
 }
 
+/* 列表定义的左缩进 */
 dl {
-	margin-left: 20px;
+	margin-left: 20px; /* 左缩进20px */
 }
 
+/* 列表定义项的颜色 */
 dd {
-	color: #222222;
+	color: #222222; /* 定义项文本颜色 */
 }
 
+/* 列表定义项的第一个元素顶部无外边距 */
 dd > *:first-child {
-	margin-top: 0;
+	margin-top: 0; /* 去除第一个元素的顶部外边距 */
 }
 
+/* 一级无序列表，使用黑色实心圆点 */
 ul {
-	list-style-position: outside;
-	list-style-type: square;
+	list-style-position: outside; /* 列表符号在内容外部 */
+	list-style-type: disc; /* 列表符号设为实心圆点 */
 }
 
+/* 次级无序列表，使用黑色空心圆点 */
+ul ul {
+	list-style-position: outside; /* 列表符号在内容外部 */
+	list-style-type: circle; /* 列表符号设为空心圆点 */
+}
+
+/* 列表与段落的间距调整 */
 p + ul, p + ol {
-	margin-top: -0.5em;
+	margin-top: -0.5em; /* 负外边距，减少顶部间距 */
 }
 
+/* 列表嵌套样式 */
 li ul, li ol {
-	margin-top: -0.3em;
+	margin-top: -0.3em; /* 减少嵌套列表顶部外边距 */
 }
 
+/* 有序列表样式 */
 ol {
-	list-style-position: outside;
-	list-style-type: decimal;
+	list-style-position: outside; /* 列表符号在内容外部 */
+	list-style-type: decimal; /* 列表符号为数字 */
 }
 
+/* 列表项和定义项的段落样式 */
 li p, dd p {
-	margin-bottom: 0.3em;
+	margin-bottom: 0.3em; /* 底部外边距 */
 }
 
-
+/* 嵌套的有序列表样式 */
 ol ol {
-	list-style-type: lower-alpha;
+	list-style-type: lower-alpha; /* 使用小写字母作为列表符号 */
 }
 
+/* 三重嵌套有序列表样式 */
 ol ol ol {
-	list-style-type: lower-roman;
+	list-style-type: lower-roman; /* 使用小写罗马字母作为符号 */
 }
 
+/* 段落后接代码块时的顶部负间距 */
 p + div.codeblock {
-	margin-top: -0.6em;
+	margin-top: -0.6em; /* 减少顶部间距 */
 }
 
+/* 代码块和信息块的样式 */
 div.codeblock, div.infoblock {
-	margin-right: 0%;
-	margin-top: 1.2em;
-	margin-bottom: 1.3em;
+	margin-right: 0%; /* 无右外边距 */
+	margin-top: 1.2em; /* 顶部外边距 */
+	margin-bottom: 1.3em; /* 底部外边距 */
 }
 
+/* 代码块和信息块标题的样式 */
 div.blocktitle {
-	font-weight: bold;
-	color: #cd7b62;
-	margin-top: 1.2em;
-	margin-bottom: 0.1em;
+	font-weight: bold; /* 标题加粗 */
+	color: #cd7b62; /* 字体颜色为褐红色 */
+	margin-top: 1.2em; /* 顶部外边距 */
+	margin-bottom: 0.1em; /* 底部外边距 */
 }
 
+/* 代码块和信息块内容的样式 */
 div.blockcontent {
-	border: 1px solid silver;
-	padding: 0.3em 0.5em;
+	border: 1px solid silver; /* 边框为银色 */
+	padding: 0.3em 0.5em; /* 内填充 */
 }
 
+/* 信息块的背景色 */
 div.infoblock > div.blockcontent {
-	background: #ffffee;
+	background: #ffffee; /* 信息块内容背景色为浅黄色 */
 }
 
+/* 信息块中的列表样式 */
 div.blockcontent p + ul, div.blockcontent p + ol {
-	margin-top: 0.4em;
+	margin-top: 0.4em; /* 列表顶部间距 */
 }
 
+/* 信息块中的段落样式 */
 div.infoblock p {
-	margin-bottom: 0em;
+	margin-bottom: 0em; /* 底部无外边距 */
 }
 
+/* 信息块中的列表项和定义项的段落样式 */
 div.infoblock li p, div.infoblock dd p {
-	margin-bottom: 0.5em;
+	margin-bottom: 0.5em; /* 底部外边距 */
 }
 
+/* 信息块中段落的顶部间距 */
 div.infoblock p + p {
-	margin-top: 0.8em;
+	margin-top: 0.8em; /* 增加段落之间的顶部外边距 */
 }
 
+/* 代码块的背景色 */
 div.codeblock > div.blockcontent {
-	background: #f6f6f6;
+	background: #f6f6f6; /* 浅灰色背景，便于区分代码内容 */
 }
 
+/* Python命令的代码高亮颜色 */
 span.pycommand {
-	color: #000070;
+	color: #000070; /* 颜色为深蓝 */
 }
 
+/* 语句类型的代码高亮 */
 span.statement {
-	color: #008800;
+	color: #008800; /* 颜色为绿色 */
 }
+
+/* 内建函数的代码高亮 */
 span.builtin {
-	color: #000088;
+	color: #000088; /* 颜色为深蓝 */
 }
+
+/* 特殊符号的代码高亮 */
 span.special {
-	color: #990000;
+	color: #990000; /* 颜色为深红 */
 }
+
+/* 操作符的代码高亮 */
 span.operator {
-	color: #880000;
+	color: #880000; /* 颜色为红色 */
 }
+
+/* 错误信息的代码高亮 */
 span.error {
-	color: #aa0000;
+	color: #aa0000; /* 颜色为较亮的红色 */
 }
+
+/* 注释和字符串的颜色 */
 span.comment, span.comment > *, span.string, span.string > * {
-	color: #606060;
+	color: #606060; /* 灰色，用于弱化注释和字符串的显示 */
 }
 
+/* 打印时隐藏菜单 */
 @media print {
-	#layout-menu { display: none; }
+	#layout-menu { display: none; } /* 打印时隐藏左侧菜单 */
 }
 
+/* 全宽标题的样式 */
 #fwtitle {
-	margin: 2px;
+	margin: 2px; /* 设置外边距 */
 }
 
+/* 顶部标题样式，左填充 */
 #fwtitle #toptitle {
-	padding-left: 0.5em;
-	margin-bottom: 0.5em;
+	padding-left: 0.5em; /* 左填充 */
+	margin-bottom: 0.5em; /* 底部外边距 */
 }
 
+/* 内容区域的第一个标题减少顶部外边距 */
 #layout-content h1:first-child, #layout-content h2:first-child, #layout-content h3:first-child {
-	margin-top: -0.7em;
+	margin-top: -0.7em; /* 负外边距 */
 }
 
+/* 顶部标题设置样式 */
 div#toptitle h1, #layout-content div#toptitle h1 {
-	margin-bottom: 0.0em;
-	padding-bottom: 0.1em;
-	padding-top: 0;
-	margin-top: 0.5em;
-	border-bottom: none;
+	margin-bottom: 0.0em; /* 底部外边距 */
+	padding-bottom: 0.1em; /* 底部内填充 */
+	padding-top: 0; /* 无顶部内填充 */
+	margin-top: 0.5em; /* 顶部外边距 */
+	border-bottom: none; /* 无底边 */
 }
 
+/* 数学公式的图片样式 */
 img.eq {
-	padding: 0;
-	padding-left: 0.1em;
-	padding-right: 0.1em;
-	margin: 0;
+	padding: 0; /* 无内填充 */
+	padding-left: 0.1em; /* 左内填充 */
+	padding-right: 0.1em; /* 右内填充 */
+	margin: 0; /* 无外边距 */
 }
 
+/* 数学公式宽行样式 */
 img.eqwl {
-	padding-left: 2em;
-	padding-top: 0.6em;
-	padding-bottom: 0.2em;
-	margin: 0;
+	padding-left: 2em; /* 左内填充 */
+	padding-top: 0.6em; /* 顶部内填充 */
+	padding-bottom: 0.2em; /* 底部内填充 */
+	margin: 0; /* 无外边距 */
 }
 
+/* 表格样式，包含边框和表格合并设置 */
 table {
-    border: 2px solid black;
-    border-collapse: collapse;
+    border: 2px solid black; /* 黑色边框 */
+    border-collapse: collapse; /* 合并边框 */
 }
 
+/* 表格单元格样式 */
 td {
-    padding: 2px;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    text-align: center;
-    border: 1px solid gray;
+    padding: 2px; /* 内填充 */
+    padding-left: 0.5em; /* 左内填充 */
+    padding-right: 0.5em; /* 右内填充 */
+    text-align: center; /* 内容居中 */
+    border: 1px solid gray; /* 灰色边框 */
 }
 
+/* 表格之间的外边距 */
 table + table {
-    margin-top: 1em;
+    margin-top: 1em; /* 表格之间的顶部外边距 */
 }
 
+/* 表头行的加粗和底边样式 */
 tr.heading {
-    font-weight: bold;
-    border-bottom: 2px solid black;
+    font-weight: bold; /* 字体加粗 */
+    border-bottom: 2px solid black; /* 底边黑色线条 */
 }
 
+/* 图片样式，移除边框 */
 img {
-    border: none;
+    border: none; /* 无边框 */
 }
 
+/* 图片表格样式，移除边框和左对齐 */
 table.imgtable, table.imgtable td {
-    border: none;
-    text-align: left;
+    border: none; /* 无边框 */
+    text-align: left; /* 内容左对齐 */
 }
