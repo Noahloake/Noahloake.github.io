@@ -45,12 +45,10 @@ body :lang(zh) {
 	padding-top: 0.0em; /* 顶部内填充设为0 */
 	padding-left: 1.0em; /* 左侧内填充1em */
 	padding-right: 1.0em; /* 右侧内填充1em */
-    border: none; /* 无边框 */
-    background: white; /* 背景颜色为白色 */
-    text-align: left; /* 内部内容左对齐 */
-    vertical-align: top; /* 顶端对齐 */
-    width: 90%; /* 设置宽度为屏幕宽度的90% */
-    margin: 0 auto; /* 使整体区域居中 */
+    	border: none; /* 无边框 */
+    	background: white; /* 背景颜色为白色 */
+    	text-align: left; /* 左对齐 */
+    	vertical-align: top; /* 顶端对齐 */
 }
 
 
