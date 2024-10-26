@@ -16,7 +16,7 @@ body {
 
 /* 中文字体设置，优先使用 Source Han Serif */
 body :lang(zh) {
-    font-family: "Source Han Serif", Georgia, serif; /* 中文使用思源宋体，英文保持为Georgia */
+    font-family: "Source Han Sans", Georgia, serif; /* 中文使用思源宋体，英文保持为Georgia */
 }
 
 
