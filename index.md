@@ -6,18 +6,18 @@ layout: homepage
 
 <h2 style="margin: 60px 0px 10px;">About</h2>
 
-Welcome to my website! I am <em>Noah Loake</em>, a Ph.D. candidate in Economics at the <span style="color:#002FA7"><em>Guanghua School of Management, Peking University</em></span> and I expect to graduate in June 2027. 
+Welcome to my website! I am <b><i>Noah Loake</i></b>, a Ph.D. candidate in Economics at the <i><b>Guanghua School of Management, Peking University</b></i> and I expect to graduate in June 2027. 
 
-My research interests lie in leveraging large-scale datasets and combining design-based (reduced-form) and model-based (structural) approaches to explore topics in <span style="color:#002FA7"><em>Political Economics, Development Economics, Public Finance</em></span> and <span style="color:#002FA7"><em>Macro Finance</em></span>. 
+My research interests lie in leveraging large-scale datasets and combining design-based (reduced-form) and model-based (structural) approaches to explore topics in <i><b>Political Economics, Development Economics, Public Finance</b></i> and <i><b>Macro Finance</b></i>. 
 
 <h2 style="margin: 30px 0px 10px;">Education Background</h2>
 
 <ul>
 
-<li>Ph.D.in Economics, <b><em>Peking University</em></b> (Expected 2027).</li>
-<li>M.A. in Economics,  <b><em>Renmin University of China</em></b> (2023).</li>
-<li>B.A. in Economics, <b><em>Wuhan Univeristy</em></b> (2020).</li>
-<li>B.A. in ​​Engineering Management​​, <b><em>​​Wuhan University of Technology​​</em></b> (2020).</li>
+<li>Ph.D.in Economics, Peking University (Expected 2027).</li>
+<li>M.A. in Economics,  Renmin University of China(2023).</li>
+<li>B.A. in Economics, Wuhan Univeristy (2020).</li>
+<li>B.A. in ​​Engineering Managbement​​, ​​Wuhan University of Technology​​ (2020).</li>
 </ul>
 
 
