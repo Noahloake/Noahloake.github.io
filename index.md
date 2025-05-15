@@ -17,7 +17,7 @@ My research interests lie in leveraging large-scale datasets and combining desig
 <li>Ph. D, Economics, Guanghua School of Management, <em>Peking University</em> (Expected 2027).</li>
 <li>Economics, School of Economics, <em>Renmin University of China</em> (2023).</li>
 <li>Internationl Economics, School of Economics and Managemnt, <em>Wuhan Univeristy</em> (2020).</li>
-  
+<li>​​Engineering Management​​, ​​School of Transportation and Logistics Engineering, <em>​​Wuhan University of Technology​​</em> (2020).</li>
 </ul>
 
 
