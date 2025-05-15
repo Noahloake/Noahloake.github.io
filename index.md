@@ -16,8 +16,8 @@ My research interests lie in leveraging large-scale datasets and combining desig
 
 <li>Ph.D.in Economics, <b><em>Peking University</em></b> (Expected 2027).</li>
 <li>M.A. in Economics,  <b><em>Renmin University of China</em></b> (2023).</li>
-<li>B.A. in Economics <b><em>Wuhan Univeristy</em></b> (2020).</li>
-<li>B.A. in ​​Engineering Management​​,<b><em>​​Wuhan University of Technology​​</em></b> (2020).</li>
+<li>B.A. in Economics, <b><em>Wuhan Univeristy</em></b> (2020).</li>
+<li>B.A. in ​​Engineering Management​​, <b><em>​​Wuhan University of Technology​​</em></b> (2020).</li>
 </ul>
 
 
