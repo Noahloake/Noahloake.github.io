@@ -14,12 +14,6 @@
 <div style="margin-top: 2px;"> Presentations: <em>The 21th China Young Economists Forum (CASS), Young Economists Society (YES) Shanghai Forum (SUFE), The 5th National Development Youth Forum (PKU).</em> </div>
 </li>
 
-
-<li>
-  <strong>Bank Deregulation and Government Debt Expansion: Evidence from China </strong>, 2024,<em>Under Review</em>.
-<div style="margin-top: 2px;"> Presentations: <em>The 21th China Young Economists Forum (CASS), Young Economists Society (YES) Shanghai Forum (SUFE), The 5th National Development Youth Forum (PKU).</em> </div>
-</li>
-
 <li>
   <strong>Asymmetric Effects of Land Finance and Policy Transmission </strong>, 2024,<em>Under Review</em>.
 <div style="margin-top: 2px;"> Presentations: <em>The 9th Annual Xiangzhang Economics Conference (RUC).</em> </div>
