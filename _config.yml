@@ -1,20 +1,19 @@
 # Basic Information 
-title: Kangkai Wang
+title: Noah Loake
 position: Ph.D. Candidate
 affiliation: Peking University  
 subaffiliation: Guanghua School of Management 
 affiliation_link: https://english.pku.edu.cn/ 
 subaffiliation_link: https://en.gsm.pku.edu.cn/
 subaffiliation_logo: ./assets/img/logogsm.png
-email: kkwangecon@stu.pku.edu.cn
-#email2: song.chen (at) universite-paris-saclay.fr
+email: benchengwang@stu.pku.edu.cn
 address: PKU Science Park, Beijing, China
 address_link: https://www.google.fr/maps/place/Peking+University+Science+Park/@39.9978601,116.3118611,17z/data=!3m1!4b1!4m6!3m5!1s0x35f056a5430a8363:0xd7c8305a66cc95a4!8m2!3d39.997856!4d116.314436!16s%2Fg%2F1v8hzlpp?entry=ttu&g_ep=EgoyMDI1MDMzMS4wIKXMDSoASAFQAw%3D%3D
 
 # Search Engine Optimization (SEO)
-keywords: kangkai wang, wang kangkai, kangkaiwang, wangkangkai, kkwang, kkwangecon, kkwang econ, kangkai wang econ
+keywords: Noah Loake, Noah Loake econ
 canonical: https://minimal-light-theme.yliu.me/
-description: Kangkai Wang is now a Ph.D. canditate in economics at Guanghua School of Management, Peking University.
+description: Noah Loake is now a Ph.D. canditate in economics at Guanghua School of Management, Peking University.
 
 # The option is used to enable the Johns Hopkins template.
 enable_hopkins_logo: false
@@ -22,37 +21,11 @@ enable_hopkins_logo: false
 # The option is used to show the last update time.
 enable_last_update: false
 
-# Links
-# cv_link: https://blog.songchen.science/de3ec0aa2234aa1e3ee275bbc715c6c9/CV.pdf
-#google_scholar: https://scholar.google.com/citations?user=sf-0AGoAAAAJ&hl=de
-#github_link: https://github.com/song-chen1/
-#linkedin: https://www.linkedin.com/in/song-chen-3449b9278/
-#researchgate: https://www.researchgate.net/profile/Song-Chen-60
-
 # Images 
 avatar: ./assets/img/website_Jan2025_copy.jpg
 favicon: ./assets/img/website_Jan2025_ratio1_adj.jpg
 favicon_dark: ./assets/img/website_Jan2025_ratio1_adj.jpg
 
-# Footnotes
-# Footnote
-# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
-enable_footnote: false
-#footnote: Feel free to use my website's source code.
-#footnote_link: https://github.com/yaoyao-liu/minimal-light
-
-# Analytics
-# Please remove the following lines about analytics services if you fork my project. 
-# Otherwise, the analytics information of your website will be recorded to my ClustrMaps accounts.
-#clustrmaps_id: ${{ secrets.CLUSTRMAPS_ID }}
-
-# Google Analytics ID
-# Please remove this if you don't use Google Analytics
-#google_analytics: ${{ secrets.GOOGLE_SCHOLAR_ID }}
-
-# Use this project as a remote theme for GitHub Pages
-# See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-remote_theme: yaoyao-liu/minimal-light
 
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
