@@ -11,11 +11,11 @@
     <span style="color:#002FA7">
      <em> Development and Political Economics Seminar @PKU </em></span>.
   </li>
-   <li><strong>[Apr. 2025]</strong> Our co-authored paper has been <b>rejected</b> by 
+   <li><strong>[Apr. 2025]</strong> Our co-authored paper has been <b>Rejected</b> by 
     <span style="color:#002FA7">
      <em> Journal of​​ Corporate Finance​​ </em></span>.
   </li>
-  <li><strong>[Jan. 2025]</strong> My paper has been <b>desk-rejected</b> by 
+  <li><strong>[Jan. 2025]</strong> My paper has been <b>Desk-Rejected</b> by 
     <span style="color:#002FA7">
      <em> Journal of Comparative Economics </em></span>.
   </li>
