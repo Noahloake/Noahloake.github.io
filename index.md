@@ -6,11 +6,9 @@ layout: homepage
 
 <h2 style="margin: 60px 0px 5px;">About</h2>
 
-Welcome to my website!
+Welcome to my website! I am <em>Noah Loake</em>, a Ph.D. candidate in Economics at the [Guanghua School of Management](https://en.gsm.pku.edu.cn/), [Peking University](https://english.pku.edu.cn/) and I expect to graduate in June 2027. 
 
-I am Noah Loake, a Ph.D. candidate in Economics at the [Guanghua School of Management](https://en.gsm.pku.edu.cn/), [Peking University](https://english.pku.edu.cn/) and I expect to graduate in June 2027. 
-
-My research interests lie in leveraging large-scale datasets and combining design-based (reduced-form) and model-based (structural) approaches to explore topics in Political Economics, Development Economics, Public Finance and Macro Finance. 
+My research interests lie in leveraging large-scale datasets and combining design-based (reduced-form) and model-based (structural) approaches to explore topics in <em>Political Economics, Development Economics, Public Finance</em> and <em>Macro Finance</em>. 
 
 <h2 style="margin: 30px 0px 5px;">Education Background</h2>
 
