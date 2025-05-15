@@ -4,7 +4,7 @@ layout: homepage
 
 <h1 id="about-me"></h1>
 
-<h2 style="margin: 60px 0px 10px;">About</h2>
+<h2 style="margin: 60px 0px 5px;">About</h2>
 
 Welcome to my website!
 
@@ -12,7 +12,7 @@ I am Noah Loake, a Ph.D. candidate in Economics at the [Guanghua School of Manag
 
 My research interests lie in leveraging large-scale datasets and combining design-based (reduced-form) and model-based (structural) approaches to explore topics in Political Economics, Development Economics, Public Finance and Macro Finance. 
 
-<h2 style="margin: 60px 0px 10px;">Education Background</h2>
+<h2 style="margin: 30px 0px 5px;">Education Background</h2>
 
 
 
