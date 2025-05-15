@@ -6,7 +6,7 @@ subaffiliation: Guanghua School of Management
 affiliation_link: https://english.pku.edu.cn/ 
 subaffiliation_link: https://en.gsm.pku.edu.cn/
 subaffiliation_logo: ./assets/img/logogsm.png
-email: benchengwang@stu.pku.edu.cn
+email: Noahloake@stu.pku.edu.cn
 address: PKU Science Park, Beijing, China
 address_link: https://www.google.fr/maps/place/Peking+University+Science+Park/@39.9978601,116.3118611,17z/data=!3m1!4b1!4m6!3m5!1s0x35f056a5430a8363:0xd7c8305a66cc95a4!8m2!3d39.997856!4d116.314436!16s%2Fg%2F1v8hzlpp?entry=ttu&g_ep=EgoyMDI1MDMzMS4wIKXMDSoASAFQAw%3D%3D
 
@@ -17,9 +17,9 @@ description: Noah Loake is now a Ph.D. canditate in economics at Guanghua School
 
 
 # Images 
-avatar: ./assets/img/website_Jan2025_copy.jpg
-favicon: ./assets/img/website_Jan2025_ratio1_adj.jpg
-favicon_dark: ./assets/img/website_Jan2025_ratio1_adj.jpg
+avatar: ./assets/img/zhiguo.jpg
+favicon: ./assets/img/zhiguo.jpg
+favicon_dark: ./assets/img/zhiguo.jpg
 
 
 plugins:
