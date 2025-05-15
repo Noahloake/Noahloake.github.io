@@ -4,12 +4,12 @@
 
 <ul>
 
-<li><strong>Microeconomics</strong> (UG, Prof. Xincheng Qiu, Spring 2025)</li>	
+<li><strong><em>Microeconomics</em></strong> (UG, Prof. Xincheng Qiu, Spring 2025)</li>	
 
-<li><strong>Advanced Econometrics</strong> (Ph.D., Prof. Qi Wu, Spring 2025)</li>	
+<li><strong><em>Advanced Econometrics</em></strong> (Ph.D., Prof. Qi Wu, Spring 2025)</li>	
 
-<li><strong>Economics</strong> (UG, Prof. Hui Wang, Fall 2024)</li>	
+<li><strong><em>Economics</em></strong> (UG, Prof. Hui Wang, Fall 2024)</li>	
 
-<li><strong>Macroeconomics</strong> (PG, Prof. Yao Tang, Fall 2024)</li>	
+<li><strong><em>Macroeconomics</em></strong> (PG, Prof. Yao Tang, Fall 2024)</li>	
 
 </ul>
