@@ -4,12 +4,12 @@
 
 <ul>
 
-<li><strong>Causal Inference for Microeconometrics</strong> (UG, Fall 2024 & Fall 2023)</li>	
+<li><strong>Microeconomics</strong> (UG, Prof. Xincheng Qiu, Spring 2025)</li>	
 
-<li><strong>Industrial Organization</strong> (UG, Spring 2022 & Spring 2021)</li>	
+<li><strong>Advanced Econometrics</strong> (Ph.D., Prof. Qi Wu, Spring 2025)</li>	
 
-<li><strong>Urban Economics</strong> (Ph.D., Fall 2024 & Fall 2021)</li>	
+<li><strong>Economics</strong> (UG, Prof. Hui Wang, Fall 2024)</li>	
 
-<li><strong>Advanced Microeconomics I</strong> (Ph.D., Fall 2022 & Fall 2021)</li>	
+<li><strong>Macroeconomics</strong> (PG, Prof. Yao Tang, Fall 2024)</li>	
 
 </ul>
