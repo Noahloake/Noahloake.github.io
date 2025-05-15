@@ -2,6 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
 body { background-color: #fff; padding: 0px; font: 16.0px/1.5 Times New Roman, serif; color: black; font-weight: 400; margin: 0; }
 
+em {
+    color: #595959; /* 设定颜色 */
+    font-family: "Crimson Pro", serif; /* 设定首选字体为 Crimson Pro，回退为 serif */
+    font-style: italic; /* 明确设定为斜体，强调 em 的用途 */
+    font-weight: 600; /* 设定字重为 600，实现“加深”效果 */
+}
 .pub-row { display: flex; align-items: center; }
 
 a.no-color {
