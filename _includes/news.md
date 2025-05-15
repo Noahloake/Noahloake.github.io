@@ -11,14 +11,18 @@
     <span style="color:#470024">
      <em> Development and Political Economics Seminar @PKU </em></span>.
   </li>
+  <li><strong>[Jan. 2025]</strong> My paper has been desk-rejected by 
+    <span style="color:#470024">
+     <em> Journal of Comparative Economics </em></span>.
+  </li>
   
 
   <li>
   <div class="show-more-container">
     <div class="content" id="more-content-1" style="display: none;">
-      <strong>[Mar. 2025]</strong> I will be presenting at
-    <span style="color:#e74d3c">
-      <a href="https://urbaneconomics.org/meetings/emuea2025/">The 14th European Meeting of the Urban Economics Association</a></span>.
+      <strong>[Nov. 2024]</strong> I will be presenting my paper <b><em>Green Gains form Migration</em> </b>at
+    <span style="color:#470024">
+     <em> Development and Political Economics Seminar @PKU </em></span>.
       <br>
     </div>
     <button onclick="toggleContent('more-content-1', this)">Show More</button>
