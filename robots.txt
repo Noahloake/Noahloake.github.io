@@ -15,4 +15,4 @@ Disallow: /.github/
 Disallow: /git-update.sh
 Disallow: /README.md
 
-Sitemap: https://kkwangecon.com/sitemap.xml
+Sitemap: https://Noahloake.com/sitemap.xml
