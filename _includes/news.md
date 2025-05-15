@@ -5,7 +5,7 @@
 <ul>
   <li><strong>[Jun. 2025]</strong> I will participate in the nationwide research initiative of the
     <span style="color:#002FA7">
-    <a href="https://cer.gsm.pku.edu.cn/index.htm"> <em> Enterprise Survey for Innovation and Entrepreneurship in China (ESIEC2025)</em></a></span>.
+    <a href="https://cer.gsm.pku.edu.cn/index.htm"> <b> <i>Enterprise Survey for Innovation and Entrepreneurship in China (ESIEC2025)</i></b></a></span>.
   </li>
   <li><strong>[May. 2025]</strong> I will be presenting my paper <b><em>Connection-Based Favoritism Within Courtroom</em> </b>at
     <span style="color:#002FA7">
@@ -13,11 +13,11 @@
   </li>
    <li><strong>[Apr. 2025]</strong> Our co-authored paper has been <b>Rejected</b> by 
     <span style="color:#002FA7">
-     <em> Journal of​​ Corporate Finance​​ </em></span>.
+     <b><i> Journal of​​ Corporate Finance​​</i> </b></span>.
   </li>
   <li><strong>[Jan. 2025]</strong> My paper has been <b>Desk-Rejected</b> by 
     <span style="color:#002FA7">
-     <em> Journal of Comparative Economics </em></span>.
+     <b> <i>Journal of Comparative Economics</i> </b></span>.
   </li>
   
 
