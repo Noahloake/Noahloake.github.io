@@ -76,11 +76,11 @@ h1, h2, h3 { line-height: 1.1; }
 
 h1 { font-size: 28px; }
 
-a { color: #470024; text-decoration: none; }
+a { color: #002FA7; text-decoration: none; }
 
 a:hover { color: #069; }
 
-a small { font-size: 11px; color: #777; margin-top: -0.3em; display: block; }
+a small { font-size: 12px; color: #777; margin-top: -0.3em; display: block; }
 
 a:hover small { color: #777; }
 
@@ -124,7 +124,7 @@ header ul li + li + li { border-right: none; width: 89px; }
 
 header ul a strong { font-size: 14px; display: block; color: #222; }
 
-section { width: 850px; float: right; padding-top: 1.2em; padding-bottom: 50px; }
+section { width: 850px; padding-top: 1.2em; padding-bottom: 50px; margin-left: 250px;}
 
 small { font-size: 11px; }
 
