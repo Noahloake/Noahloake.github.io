@@ -8,13 +8,9 @@ layout: homepage
 
 Welcome to my website!
 
-I am Kangkai Wang (王慷楷), a Ph.D. candidate in Economics at the [Guanghua School of Management](https://en.gsm.pku.edu.cn/), [Peking University](https://english.pku.edu.cn/) and I expect to graduate in June 2025. 
+I am Noah Loake, a Ph.D. candidate in Economics at the [Guanghua School of Management](https://en.gsm.pku.edu.cn/), [Peking University](https://english.pku.edu.cn/) and I expect to graduate in June 2027. 
 
-My research interests lie in leveraging large-scale datasets and combining design-based (reduced-form) and model-based (structural) approaches to explore topics in urban economics, environmental economics, and empirical industrial organization. 
-
-I will join the [HKU Business School](https://www.hkubs.hku.hk/) at [The University of Hong Kong](https://www.hku.hk/) as a postdoctoral fellow working with Professor [Guojun He](https://www.guojunhe.com/) in Fall 2025.
-
-Here is my [CV](https://www.dropbox.com/scl/fi/s89fvtt4gfvcvcanpgscl/CV_KangkaiWANG.pdf?rlkey=glfaq5osoi8eud20wcipr2fy7&st=ml08ww08&dl=0).
+My research interests lie in leveraging large-scale datasets and combining design-based (reduced-form) and model-based (structural) approaches to explore topics in Political Economics, Development Economics, Public Finance and Macro Finance. 
 
 
 {% include_relative _includes/news.md %}
