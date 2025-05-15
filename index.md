@@ -14,7 +14,13 @@ My research interests lie in leveraging large-scale datasets and combining desig
 
 <h2 style="margin: 30px 0px 5px;">Education Background</h2>
 
+<ul>
 
+<li>Ph. D, Economics, Guanghua School of Management, Peking University（2027）.</li>
+<li>Economics, School of Economics, Renmin University of China（2023）.</li>
+<li>Internationl Economics, School of Economics and Managemnt, Wuhan Univeristy (2020).</li>
+  
+</ul>
 
 
 {% include_relative _includes/news.md %}
