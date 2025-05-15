@@ -11,7 +11,7 @@
     <span style="color:#470024">
      <em> Development and Political Economics Seminar @PKU </em></span>.
   </li>
-   <li><strong>[Jan. 2025]</strong> Our co-authored paper has been <b>rejected</b> by 
+   <li><strong>[Apr. 2025]</strong> Our co-authored paper has been <b>rejected</b> by 
     <span style="color:#470024">
      <em> Journal of​​ Corporate Finance​​ </em></span>.
   </li>
