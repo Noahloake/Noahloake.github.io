@@ -4,11 +4,11 @@
 
 <ul>
 
-<li><strong>Connection-based Favoritism Within the Courtroom.</strong> </li>
+<li><em>Connection-based Favoritism Within the Courtroom.</em> </li>
 
-<li><strong>Money Matters: Trade Shock, Bank and Credit Reallocation.</strong> </li>
+<li><em>Money Matters: Trade Shock, Bank and Credit Reallocation.</em> </li>
 
-<li><strong>Fiscal Hunger and Sin Revenue: Local Debt Stress, Budget Cycles, and Tobacco Wholesale Expansion in China.</strong> </li>
+<li><em>Fiscal Hunger and Sin Revenue: Local Debt Stress, Budget Cycles, and Tobacco Wholesale Expansion in China.</em> </li>
 
 </ul>
 
