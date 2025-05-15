@@ -3,27 +3,11 @@
 <h2 style="margin: 30px 0px 10px;">News</h2>
 
 <ul>
-  <li><strong>[Jun. 2025]</strong> I will be presenting at
-    <span style="color:#e74d3c">
-      <a href="https://www.gsm.pku.edu.cn/smue_china"> The 3rd Summer Meeting in Urban Economics, China</a></span>.
+  <li><strong>[May. 2025]</strong> I will be presenting my paper <em>Connection-Based Favoritism Within Courtroom.</em>at
+    <span style="color:#470024">
+     <em> Development and Political Economics Seminar @PKU </em></span>.
   </li>
   
-  <li><strong>[Jun. 2025]</strong> I will participate in the
-    <span style="color:#e74d3c">
-      <a href="https://www.econ.cuhk.edu.hk/econ/en-gb/news-event/student-activities/589-summerschool2025.html">CUHK Summer School of Asia in the Global Economy 2025, themed Trade and Environment</a></span>.
-  </li>
-
-  <li><strong>[May 2025]</strong> I will deliver a mini lecture on my research in urban and environmental economics at the 
-    <span style="color:#e74d3c">
-      <a href="https://site.uibe.edu.cn/english/english.html">
-        School of International Trade and Economics@UIBE</a></span>.
-  </li>
-
-   <li><strong>[May 2025]</strong> I will attend
-    <span style="color:#e74d3c">
-      <a href="https://econ.fudan.edu.cn/info/1146/31927.htm">
-        The 11th Biennial International Conference on Transition and Economic Development</a></span> at Fudan University, where our paper will be presented.
-  </li>
 
   <li>
   <div class="show-more-container">
@@ -32,23 +16,6 @@
     <span style="color:#e74d3c">
       <a href="https://urbaneconomics.org/meetings/emuea2025/">The 14th European Meeting of the Urban Economics Association</a></span>.
       <br>
-       <strong>[Mar. 2025]</strong> The RA project I worked on, 
-      "<span style="color:#e74d3c">
-        <a href="https://www.aeaweb.org/articles?id=10.1257/aer.20200374&&from=f">
-          The Geographic Flow of Bank Funding and Access to Credit: Branch Networks, Synergies, and Local Competition
-        </a>
-      </span>" (by 
-      <span style="color:#e74d3c"><a href="https://sites.google.com/view/victoraguirregabiriaswebsite/home">Victor Aguirregabiria</a></span>, 
-      <span style="color:#e74d3c"><a href="https://sites.google.com/site/robertclark09site/">Robert Clark</a></span>, and 
-      <span style="color:#e74d3c"><a href="https://en.gsm.pku.edu.cn/faculty/jackie.wang/">Hui Wang</a></span>) 
-      has been accepted by the <strong><em>American Economic Review</em></strong>!
-      <br>
-      <strong>[Jan. 2025]</strong> Our paper has been accepted for the 
-      "<span style="color:#e74d3c">
-        <a href="https://www.aeaweb.org/conference/2025/program/1986?q=eNqrVipOLS7OzM8LqSxIVbKqhnGVrJQMlWp1lJITS1LT84sqgXwlHaXE4uL8ZAizJLUoF8JKSYTKlmTmpkJYZZmp5SDDigoKgAKmBiCTChLTQbKGQA5cMHwsXCKQ">
-          Climate Change Impact, Adaptation, and Resilience in the Developing World
-        </a>
-      </span>" session at ASSA 2025.
     </div>
     <button onclick="toggleContent('more-content-1', this)">Show More</button>
   </div>
