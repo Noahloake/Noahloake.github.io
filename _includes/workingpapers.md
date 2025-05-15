@@ -5,7 +5,7 @@
 <ul>
 
 <li>
-  <b>Look Before You Leap: Terrain Heterogeneity, Migration, and Afforestation Decisions—Evidence from China</b>, 2025,<em>[First Draft]</em>.
+  <b>Look Before You Leap: Terrain Heterogeneity, Migration, and Afforestation Decisions</b>, 2025,<em>[First Draft]</em>.
 <div style="margin-top: 2px;"> Presentations: <em>Development and Political Economics Seminar NSD@PKU.</em> </div>
 </li>
 
