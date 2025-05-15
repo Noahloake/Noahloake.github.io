@@ -3,7 +3,11 @@
 <h2 style="margin: 30px 0px 10px;">News</h2>
 
 <ul>
-  <li><strong>[May. 2025]</strong> I will be presenting my paper <em>Connection-Based Favoritism Within Courtroom.</em>at
+  <li><strong>[Jun. 2025]</strong> I will participate in the nationwide research initiative of the
+    <span style="color:#470024">
+    <a href="https://cer.gsm.pku.edu.cn/index.htm"> <em> Enterprise Survey for Innovation and Entrepreneurship in China (ESIEC2025)</em></a></span>.
+  </li>
+  <li><strong>[May. 2025]</strong> I will be presenting my paper <b><em>Connection-Based Favoritism Within Courtroom</em> </b>at
     <span style="color:#470024">
      <em> Development and Political Economics Seminar @PKU </em></span>.
   </li>
