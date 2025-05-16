@@ -12,12 +12,16 @@
 </li>
 
 <li>
+  <b>R&D Tax Incentives and Labor Share Declines —— Evidence From Chinese firms</b>(with <i>Yanlong Chen</i>), 2025,<em>Under Review</em>.
+</li>
+
+<li>
   <b>Look Before You Leap: Terrain Heterogeneity, Migration, and Afforestation Decisions</b>, 2025,<em>[First Draft]</em>.
 <div style="margin-top: 2px;"> Presentations: <em>Development and Political Economics Seminar NSD@PKU.</em> </div>
 </li>
 
 <li>
-  <b>Bank Deregulation, Local Protection and Credit Reallocation: Evidence from China</b>, 2024,<em>Under Review</em>.
+  <b>Bank Deregulation, Local Protection and Credit Reallocation: Evidence From China</b>, 2024,<em>Under Review</em>.
 <div style="margin-top: 2px;"> Presentations: <em>The 21th China Young Economists Forum SOE@CASS, Young Economists Society (YES) Shanghai Forum SOE@SUFE, The 5th National Development Youth Forum NSD@PKU.</em> </div>
 </li>
 
