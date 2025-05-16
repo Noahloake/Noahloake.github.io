@@ -12,7 +12,7 @@
 </li>
 
 <li>
-  <b>R&D Tax Incentives and Labor Share Declines —— Evidence From Chinese firms</b>(with <i>Yanlong Chen</i>), 2025,<em>Under Review</em>.
+  <b>R&D Tax Incentives and Labor Share Declines: Evidence From Chinese Firms</b>(with <i>Yanlong Chen</i>), 2025,<em>Under Review</em>.
 </li>
 
 <li>
