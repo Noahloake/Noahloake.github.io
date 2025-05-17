@@ -8,14 +8,6 @@
 <ul>
 
 <li>
-  <b>Deleveraging, Labor Outsourcing and Reallocation:Evidence From China</b>(with <i>Yanlong Chen</i>), 2025,<em>Under Review</em>.
-</li>
-
-<li>
-  <b>R&D Tax Incentives and Labor Share Declines: Evidence From Chinese Firms</b>(with <i>Yanlong Chen</i>), 2025,<em>Under Review</em>.
-</li>
-
-<li>
   <b>Look Before You Leap: Terrain Heterogeneity, Migration, and Afforestation Decisions</b>, 2025,<em>[First Draft]</em>.
 <div style="margin-top: 2px;"> Presentations: <em>Development and Political Economics Seminar NSD@PKU.</em> </div>
 </li>
