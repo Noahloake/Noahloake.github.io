@@ -6,6 +6,13 @@
 <h2 style="margin: 30px 0px 10px;">Working Papers</h2>
 
 <ul>
+<li>
+  <b>Deleveraging, Labor Outsourcing and Reallocation: Evidence from Chinese Firms</b>, 2025,<em>Under Review</em> at <i><b>Finance Research Letters</b></i>.
+</li>
+
+<li>
+  <b>R&D Tax Incentives and Labor Share Declines</b>, 2025,<em>Under Review</em> at <i><b>Structural Change and Economic Dynamics</b></i>.
+</li>
 
 <li>
   <b>The Unexpected Green Gains of Rural-Urban Migration</b>, 2025,<em>[Draft coming soon]</em>.
