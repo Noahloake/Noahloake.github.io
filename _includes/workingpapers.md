@@ -7,11 +7,11 @@
 
 <ul>
 <li>
-  <b>Deleveraging, Labor Outsourcing and Reallocation: Evidence from Chinese Firms</b>(with <i>Yanlong Chen</i>), 2025,<em>Under Review</em> at <span style="color:#002FA7"><i><b>Finance Research Letters</b></i></span>.
+  <b>Deleveraging, Labor Outsourcing and Reallocation: Evidence from Chinese Firms</b>(with <i>Yanlong Chen</i>), 2025,<em>Under Review</em>.
 </li>
 
 <li>
-  <b>R&D Tax Incentives and Labor Share Declines</b>(with <i>Yanlong Chen</i>), 2025,<em>Under Review</em> at <span style="color:#002FA7"><i><b>Structural Change and Economic Dynamics</b></i></span>.
+  <b>R&D Tax Incentives and Labor Share Declines</b>(with <i>Yanlong Chen</i>), 2025,<em>Under Review</em>.
 </li>
 
 <li>
