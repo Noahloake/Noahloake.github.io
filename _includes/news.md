@@ -13,7 +13,7 @@
   </li>
    <li><strong>[Apr. 2025]</strong> Our co-authored paper has been <b>Rejected</b> by 
     <span style="color:#002FA7">
-     <b><i> Journal of​​ Corporate Finance​​</i> </b></span>.
+     <b><i> Journal of​​ Corporate Finance, Economics Letters​​</i> </b></span>.
   </li>
   <li><strong>[Jan. 2025]</strong> My paper has been <b>Desk-Rejected</b> by 
     <span style="color:#002FA7">
