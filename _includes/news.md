@@ -7,7 +7,7 @@
     <span style="color:#002FA7">
     <a href="https://cer.gsm.pku.edu.cn/index.htm"> <b> <i>Enterprise Survey for Innovation and Entrepreneurship in China (ESIEC2025)</i></b></a></span>.
   </li>
-  <li><strong>[May. 2025]</strong> I will be presenting my paper <b><em>Connection-Based Favoritism Within Courtroom</em> </b>at
+  <li><strong>[May. 2025]</strong> I will be presenting my paper <b><u>Connection-Based Favoritism Within Courtroom</u> </b>at
     <span style="color:#002FA7">
      <em> Development and Political Economics Seminar @PKU </em></span>.
   </li>
@@ -24,7 +24,7 @@
   <li>
   <div class="show-more-container">
     <div class="content" id="more-content-1" style="display: none;">
-      <strong>[Nov. 2024]</strong> I will be presenting my paper <b><em>Green Gains form Migration</em> </b>at
+      <strong>[Nov. 2024]</strong> I will be presenting my paper <b><u>Green Gains form Migration</u> </b>at
     <span style="color:#002FA7">
      <em> Development and Political Economics Seminar @PKU </em></span>.
       <br>
