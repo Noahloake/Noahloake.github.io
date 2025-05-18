@@ -8,17 +8,17 @@
 <ul>
 
 <li>
-  <b>Look Before You Leap: Terrain Heterogeneity, Migration, and Afforestation Decisions</b>, 2025,<em>[First Draft]</em>.
+  <b>The Unexpected Green Gains of Rural-Urban Migration</b>, 2025,<em>[Draft coming soon]</em>.
 <div style="margin-top: 2px;"> Presentations: <em>Development and Political Economics Seminar NSD@PKU.</em> </div>
 </li>
 
 <li>
-  <b>Bank Deregulation, Local Protection and Credit Reallocation: Evidence From China</b>, 2024,<em>Under Review</em>.
+  <b>Money Flows: Bank Deregulation, Local Protection and Credit Reallocation</b>, 2024,<em>Under Review</em>.
 <div style="margin-top: 2px;"> Presentations: <em>The 21th China Young Economists Forum SOE@CASS, Young Economists Society (YES) Shanghai Forum SOE@SUFE, The 5th National Development Youth Forum NSD@PKU.</em> </div>
 </li>
 
 <li>
-  <b>Political Economy of Asymmetric Policy Effects: Evdience From China Land Market.</b>, 2024,<em>Under Review</em>.
+  <b>Political Economy of Asymmetric Policy Effects.</b>, 2024,<em>Under Review</em>.
 <div style="margin-top: 2px;"> Presentations: <em>The 9th Annual Xiangzhang Economics Conference SOE@RUC.</em> </div>
 </li>
 
