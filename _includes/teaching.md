@@ -6,7 +6,7 @@
 
 <li><b>Intermediate Microeconomics</b> (UG, <a href="https://www.xinchengqiu.com/"><em>Xincheng Qiu</em></a>, Spring 2025)</li>	
 
-<li><b>Advanced Econometrics II: Causal Inference</b> (Ph.D., <a href="https://www.qiwuecon.com/"><em>Qi Wu</em></a>, Spring 2025)</li>	
+<li><b>Advanced Econometrics II: Causal Inference</b> (Ph.D., <a href="https://www.qiwuecon.com/"><em>Qi Wu</em></a>, <a href="https://sites.google.com/view/lukashenseleconomics/"><em>Lukas Hensel</em></a>, <a href="https://www.alanyang.net/home"><em>Yu (Alan) Yang</em></a>, Spring 2025)</li>	
 
 <li><b>Economics 101</b> (UG, <a href="https://en.gsm.pku.edu.cn/faculty/jackie.wang/"><em>Hui Wang</em></a>, Fall 2024)</li>	
 
