@@ -7,7 +7,7 @@
 
 <ul>
 <li>
-  <b>Deleveraging, Labor Outsourcing and Reallocation: Evidence from Chinese Firms</b>(with <i>Yanlong Chen</i>), 2025,<em>Under Review</em>.
+  <b>Deleveraging, Labor Outsourcing and Reallocation</b>(with <i>Yanlong Chen</i>), 2025,<em>Under Review</em>.
 </li>
 
 <li>
