@@ -15,7 +15,7 @@ My research interests lie in leveraging large-scale datasets and combining desig
 <ul>
 
 <li>Ph.D.in Economics, Peking University (Expected 2027).
-  <li><u>Committee</u>:</li> <a href="https://en.gsm.pku.edu.cn/faculty/x.zhang/">Xiaobo Zhang</a> (PKU,Chair), <a href="https://en.gsm.pku.edu.cn/faculty/zhoula/">Li-An Zhou</a>(PKU).
+  <li><u>Committee</u>:<a href="https://en.gsm.pku.edu.cn/faculty/x.zhang/">Xiaobo Zhang</a> (PKU,Chair), <a href="https://en.gsm.pku.edu.cn/faculty/zhoula/">Li-An Zhou</a>(PKU).</li> 
 </li>
 <li>M.A. in Economics,  Renmin University of China(2023).</li>
 <li>B.A. in Economics, Wuhan Univeristy (2020).</li>
