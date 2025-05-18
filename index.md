@@ -10,7 +10,7 @@ Welcome to my website! I am <b><i>Noah Loake</i></b>, a second-year Ph.D. studen
 
 My research interests lie in leveraging large-scale datasets and combining design-based and model-based approaches to explore topics in <i><b>Political Economics, Development Economics, Public Finance</b></i> and <i><b>Macro Finance</b></i>. 
 
-<em>Public Goods</em>:​​ With sponsorship from <a href="https://sites.google.com/view/lukashenseleconomics/">Lukas Hensel</a>, I have compiled and regularly update (weekly) seminar activities <em><a href="https://docs.qq.com/sheet/DUVZZektqV2ViS255?tab=BB08J2">[Website]</a></em> from the economics departments of Peking University and Tsinghua University.
+<em>Public Goods</em>:​​ With sponsorship from <i><a href="https://sites.google.com/view/lukashenseleconomics/">Lukas Hensel</a></i>, I have compiled and regularly update (weekly) seminar activities <em><a href="https://docs.qq.com/sheet/DUVZZektqV2ViS255?tab=BB08J2">(Seminar Website)</a></em> from the economics departments of Peking University and Tsinghua University.
 
 <h2 style="margin: 30px 0px 10px;">Education Background</h2>
 
