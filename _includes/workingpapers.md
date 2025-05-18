@@ -18,7 +18,7 @@
 </li>
 
 <li>
-  <b>Political Economy of Asymmetric Policy Effects.</b>, 2024,<em>Under Review</em>.
+  <b>Incentives and Relationships: The Political Economy of Asymmetric Policy Effects</b>, 2024,<em>Under Review</em>.
 <div style="margin-top: 2px;"> Presentations: <em>The 9th Annual Xiangzhang Economics Conference SOE@RUC.</em> </div>
 </li>
 
