@@ -15,9 +15,9 @@
     <span style="color:#002FA7">
      <b><i> Journal of​​ Corporate Finance, Economics Letters​​</i> </b></span>.
   </li>
-  <li><strong>[Jan. 2025]</strong> My paper has been <b>Desk-Rejected</b> by 
+  <li><strong>[Jan. 2025]</strong> My paper has been <b>Rejected</b> by 
     <span style="color:#002FA7">
-     <b> <i>Journal of Comparative Economics</i> </b></span>.
+     <b> <i>Review of Economics & Statistics(Desk), Journal of Develpoment Economics, Journal of Comparative Economics</i> </b></span>.
   </li>
   
 
