@@ -7,25 +7,25 @@
 
 <ul>
 <li>
-  Deleveraging, Labor Outsourcing and Reallocation (with <i>Yanlong Chen</i>), May. 2025, <em>R & R at Finance Research Letters</em>.
+  <b>Deleveraging, Labor Outsourcing and Reallocation </b>(with <i>Yanlong Chen</i>), May. 2025, <em>Revise and Resubimt at Finance Research Letters</em>.
 </li>
 
 <li>
-  R&D Tax Incentives and Labor Share Declines (with <i>Yanlong Chen</i>), May. 2025, <em>Under Review</em>.
+  <b>R&D Tax Incentives and Labor Share Declines</b> (with <i>Yanlong Chen</i>), May. 2025, <em>Under Review</em>.
 </li>
 
 <li>
-  The Unexpected Green Gains of Rural-Urban Migration, May. 2025, <em>(New Draft Coming Soon)</em>.
-<div style="margin-top: 2px;"> <u>Presentations</u>: <em>Development and Political Economics Seminar NSD@PKU.</em> </div>
+  <b>The Unexpected Green Gains of Rural-Urban Migration</b>, May. 2025, <em>(New Draft Coming Soon)</em>.
+<div style="margin-top: 2px;"> <u>Presentations</u>: <em>Development and Political Economics Seminar NSD@PKU</em>. </div>
 </li>
 
 <li>
-  Money Flows: Bank Deregulation, Local Protection and Credit Reallocation, Dec. 2024, <em>Revise and Resubimt.</em>.
+  <b>Money Flows: Bank Deregulation, Local Protection and Credit Reallocation</b>, Dec. 2024, <em>Revise and Resubimt</em>.
 <div style="margin-top: 2px;"> <u>Presentations</u>: <em>The 21th China Young Economists Forum SOE@CASS, Young Economists Society (YES) Shanghai Forum SOE@SUFE, The 5th National Development Youth Forum NSD@PKU.</em> </div>
 </li>
 
 <li>
-  Incentives and Relationships: The Political Economy of Asymmetric Policy Effects, Sep. 2024, <em>Under Review</em>.
+  <b>Incentives and Relationships: The Political Economy of Asymmetric Policy Effects</b>, Sep. 2024, <em>Under Review</em>.
 <div style="margin-top: 2px;"> <u>Presentations</u>: <em>The 9th Annual Xiangzhang Economics Conference SOE@RUC.</em> </div>
 </li>
 
