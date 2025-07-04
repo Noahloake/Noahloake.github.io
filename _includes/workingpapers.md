@@ -7,7 +7,7 @@
 
 <ul>
 <li>
-  <b>Deleveraging, Labor Outsourcing and Reallocation </b>(with <i>Yanlong Chen</i>), 2025, <em>Revise and Resubimt at Finance Research Letters</em>.
+  <b>Deleveraging, Labor Outsourcing and Reallocation </b>(with <i>Yanlong Chen</i>), 2025, <em>Revise and Resubmit at Finance Research Letters</em>.
 </li>
 
 <li>
@@ -20,7 +20,7 @@
 </li>
 
 <li>
-  <b>Money Flows: Bank Deregulation, Local Protection and Credit Reallocation</b>, 2024, <em>Revise and Resubimt</em>.
+  <b>Money Flows: Bank Deregulation, Local Protection and Credit Reallocation</b>, 2024, <em>Revise and Resubmit</em>.
 <div style="margin-top: 2px;"> <u>Presentations</u>: <em>The 21th China Young Economists Forum SOE@CASS, Young Economists Society (YES) Shanghai Forum SOE@SUFE, The 5th National Development Youth Forum NSD@PKU.</em> </div>
 </li>
 
