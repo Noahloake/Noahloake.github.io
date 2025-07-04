@@ -4,13 +4,13 @@
 
 <ul>
 
-<li><em>Migration Magnets and Village Power Vacuums: Trade‑Induced Rural‑Urban Migration and the Reshaping of Grass‑Roots Governance in China, 1990‑2010, Jun 2025.</em> </li>
+<li>Migration Magnets and Village Power Vacuums:1990‑2010, Jun 2025.</li>
 
-<li><em>Fiscal Hunger and Sin Revenue: Local Debt Stress, Budget Cycles, and Tobacco Wholesale Expansion in China, May 2025.</em> </li>
+<li>Fiscal Hunger and Sin Revenue: Local Debt Stress, Budget Cycles, and Tobacco Wholesale Expansion in China, May 2025.</li>
 
-<li><em>Connection-based Favoritism Within the Courtroom, Mar 2025.</em> </li>
+<li>Connection-based Favoritism Within the Courtroom, Mar 2025. </li>
 
-<li><em>Money Matters: Trade Shock, Bank and Credit Reallocation, Dec 2024.</em> </li>
+<li>Money Matters: Trade Shock, Bank and Credit Reallocation, Dec 2024. </li>
 
 </ul>
 
