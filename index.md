@@ -20,8 +20,7 @@ My research interests lie in leveraging large-scale datasets and combining desig
   <div style="margin-top: 2px;"> <u>Committee</u>: <i><a href="https://en.gsm.pku.edu.cn/faculty/x.zhang/">Xiaobo Zhang</a> (PKU,Chair), <a href="https://en.gsm.pku.edu.cn/faculty/zhoula/">Li-An Zhou</a> (PKU)</i>. </div>
 </li>
 <li>M.A. in Economics,  Renmin University of China (2023).</li>
-<li>B.A. in Economics, Wuhan Univeristy (2020).</li>
-<li>B.A. in ​​Engineering Management​​, ​​Wuhan University of Technology​​ (2020).</li>
+<li>B.A. in Economics (Minor), Wuhan Univeristy (2020).</li>
 </ul>
 
 
