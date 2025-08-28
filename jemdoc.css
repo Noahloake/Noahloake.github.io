@@ -75,7 +75,7 @@ pre, tt {
 }
 
 a, a > tt {
-	color: #224b8d;
+	color: #0000FF;
 	text-decoration: none;
 }
 
@@ -372,3 +372,4 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
