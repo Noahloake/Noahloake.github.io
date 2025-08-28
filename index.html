@@ -181,6 +181,36 @@
     font-weight: bold; /* 加粗 "Presented at:" */
     color: #333;
 }
+	/* CSS for Teaching Section Table */
+.teaching-table {
+    width: 100%; /* 表格宽度占满容器 */
+    border-collapse: collapse; /* 合并边框，样式更简洁 */
+    margin-top: 1em;
+    font-size: 1em; /* 调整字体大小 */
+}
+
+/* 表格的表头和单元格样式 */
+.teaching-table th,
+.teaching-table td {
+    padding: 12px 10px; /* 单元格的内边距，增加呼吸感 */
+    text-align: left; /* 文字左对齐 */
+    border-bottom: 1px solid #eeeeee; /* 每个单元格下方有浅灰色细线 */
+    vertical-align: middle; /* 垂直居中对齐 */
+}
+
+/* 表头(Term, Course Title等)的特殊样式 */
+.teaching-table thead th {
+    font-weight: bold;
+    color: #333;
+    border-bottom-width: 2px; /* 表头下方的线更粗一些 */
+    border-bottom-color: #cccccc;
+}
+
+/* 为不同列设置参考宽度，让布局更稳定 */
+.teaching-table .col-term { width: 18%; }
+.teaching-table .col-title { width: 37%; }
+.teaching-table .col-number { width: 15%; }
+.teaching-table .col-instructor { width: 30%; }
 </style>
 
 <!--************************************************************************************************************************************-->	
@@ -335,13 +365,54 @@
 
 
 <!--************************************************************************************************************************************-->	
-<h2>Teaching Experience</h2>
-<table id="tbTeaching" border="0" width="100%">
-	<tbody>
-		<tr>
-			<td> 2025 Fall, 2024 Fall</td><td>Economics 101</td><td>(PKU, 02831110)</td>
-		</tr>
-	</tbody>
+<!--第五部分：助教经历 -->
+<h2>Teaching Assistant</h2>
+<p>I have had the pleasure of serving as a Teaching Assistant for the following courses at Peking University:</p>
+<table class="teaching-table">
+    <thead>
+        <tr>
+            <th class="col-term">Term</th>
+            <th class="col-title">Course Title</th>
+            <th class="col-number">Course Number</th>
+            <th class="col-instructor">Instructor(s)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Spring 2025</td>
+            <td>Intermediate Microeconomics (UG)</td>
+            <td>ECON2010</td>
+            <td><a href="https://www.xinchengqiu.com/" target="_blank">Xincheng Qiu</a></td>
+        </tr>
+        <tr>
+            <td>Spring 2025</td>
+            <td>Advanced Econometrics II (Ph.D.)</td>
+            <td>ECON9020</td>
+            <td>
+                <a href="https://www.qiwuecon.com/" target="_blank">Qi Wu</a>, 
+                <a href="https://sites.google.com/view/lukashenseleconomics/" target="_blank">Lukas Hensel</a>, 
+                <a href="https://www.alanyang.net/home" target="_blank">Yu (Alan) Yang</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Fall 2024</td>
+            <td>Economics 101 (UG)</td>
+            <td>ECON1001</td>
+            <td><a href="https://en.gsm.pku.edu.cn/faculty/jackie.wang/" target="_blank">Hui Wang</a></td>
+        </tr>
+        <tr>
+            <td>Fall 2024</td>
+            <td>Advanced Macroeconomics (PG)</td>
+            <td>ECON6010</td>
+            <td><a href="https://en.gsm.pku.edu.cn/faculty/ytang/" target="_blank">Yao Tang</a></td>
+        </tr>
+        <tr>
+            <td>Spring 2023</td>
+            <td>Panel Data Causal Inference Methods (PG)</td>
+            <td>ECON6250</td>
+            <td><a href="https://yiqingxu.org/" target="_blank">Yiqing Xu</a></td>
+        </tr>
+    </tbody>
 </table>
 
 
@@ -356,6 +427,7 @@
 <!--收尾部分-->
 </div>
 </body></html>
+
 
 
 
