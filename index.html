@@ -61,6 +61,69 @@
     font-weight: bold;
     margin-right: 10px; /* 与新闻内容拉开距离 */
 }
+	/* CSS for Publications Section */
+.publications-list {
+    list-style: none; /* 移除默认的数字列表样式 */
+    padding-left: 0;
+    counter-reset: pub-counter; /* 初始化一个名为 pub-counter 的计数器 */
+}
+
+.publications-list li {
+    counter-increment: pub-counter; /* 每个列表项让计数器加一 */
+    margin-bottom: 2.5em; /* 增加条目之间的垂直间距，使其不拥挤 */
+    padding-left: 3em; /* 为自定义的数字编号留出空间 */
+    position: relative; /* 为绝对定位的伪元素提供参照 */
+    line-height: 1.6; /* 增加行高，提升可读性 */
+}
+
+.publications-list li::before {
+    content: counter(pub-counter) "."; /* 显示 "1.", "2." 等 */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.pub-header {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 0.3em;
+}
+
+.pub-meta {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 0.6em;
+}
+
+.pub-journal {
+    font-style: italic; /* 期刊名使用斜体是学术惯例 */
+}
+
+.pub-summary {
+    font-size: 0.95em;
+    color: #555; /* 摘要部分使用稍浅的颜色以区分 */
+    text-align: justify; /* 两端对齐，更显整洁 */
+}
+
+.pub-link {
+    text-decoration: none;
+    border: 1px solid #0056b3; /* 链接按钮边框颜色 */
+    color: #0056b3; /* 链接按钮文字颜色 */
+    padding: 2px 10px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    margin-left: 8px;
+    white-space: nowrap; /* 防止按钮内的文字换行 */
+    transition: all 0.2s ease-in-out; /* 添加平滑的过渡效果 */
+}
+
+.pub-link:hover {
+    background-color: #0056b3; /* 鼠标悬停时改变背景和文字颜色 */
+    color: #ffffff;
+}
 </style>
 
 <!--容器空间设定-->
@@ -81,7 +144,7 @@
 				<p>Guanghua School of Management, Peking University. </p>
 				<p><i>Email</i>: <a href="benchengwang@stu.pku.edu.cn">benchengwang@stu.pku.edu.cn</a></p>
 				<p><i>Office</i>: Peking University Science Park, 305-153, No.5 Yiheyuan Road, Haidian District.</p>
-				<p>Notice:I collect and organize information about economics seminars at Peking University and Tsinghua University each semester. If you're interested, you can refer to this shared spreadsheet: <a href="https://docs.qq.com/sheet/DUVZZektqV2ViS255?tab=BB08J2" target="_blank"><strong>[Tencent Doc Link] Econ Seminar</strong></a>.</p>
+				<p>Notice: I collect and organize information about economics seminars at Peking University and Tsinghua University each semester. If you're interested, you can refer to this shared spreadsheet: <a href="https://docs.qq.com/sheet/DUVZZektqV2ViS255?tab=BB08J2" target="_blank"><strong>[Tencent Doc Link] Econ Seminar</strong></a>.</p>
 			</td>
 			<td>
 				<img src="./pic/Bencheng.jpg" border="0" width="200"><br>
@@ -153,275 +216,25 @@
     </ul>
 </div>
 	
+<!--第三部分：我的发表 Selected Publications -->
+<h2>Selected Publications</h2>
+<ol class="publications-list">
+    <li>
+        <div class="pub-header">
+            Does the deleveraging policy increase corporate labor outsourcing? —Evidence from China
+            [<a href="https://doi.org/10.1016/j.frl.2025.108269" class="pub-link" target="_blank">-Link-</a>]
+            [<a href="[在此处粘贴您论文PDF版本的链接或路径]" class="pub-link" target="_blank">-PDF-</a>]
+        </div>
+        <div class="pub-meta">
+            Yanlong Chen and <strong>Bencheng Wang</strong>. <span class="pub-journal">Finance Research Letters</span>, Vol. 85, 108269, 2025.
+        </div>
+        <div class="pub-summary">
+            This study finds that China's deleveraging policy prompted firms to increase labor outsourcing as a cost-reduction strategy. This allowed them to reallocate internal resources toward core, high-value-added activities, ultimately enhancing competitiveness.
+        </div>
+    </li>
 
+    </ol>
 
-<h2> Selected Publications | <a href="https://scholar.google.com/citations?user=kwBR1ygAAAAJ&hl=zh-CN">Full List</a></h2>
-<!--
-<div style="height: 1440px; overflow: auto;">
--->
-<table id="tbPublications" width="100%">
-	<tbody>
-	<td><b>/*Preprints*/</b>
-	<p></p>
-	</td>
-	<tr>
-	<tr>&nbsp</tr>
-	<tr>&nbsp</tr>
-	<tr>&nbsp</tr>
-	<tr>
-		<td width="306">
-		<img src="./indexpics/2025-survey.png" width="285px" style="box-shadow: 4px 4px 8px #888">
-		</td>				
-		<td>
-		<p><b>🎉 Controllable Video Generation: A Survey</b></p>
-		<p><b>Yue Ma</b>, Kunyu Feng, Zhongyuan Hu, Xinyu Wang, Yucheng Wang, Mingzhe Zheng, Xuanhua He, Chenyang Zhu, Hongyu Liu, Yingqing He, Zeyu Wang, Zhifeng Li, Xiu Li, Wei Liu, Dan Xu, Linfeng Zhang, Qifeng Chen</p>
-		<em>arXiv preprint:2507.16869. 2025</em>
-		<p> [<a href="https://arxiv.org/pdf/2507.16869">paper</a>] [<a href="https://github.com/mayuelala/Awesome-Controllable-Video-Generation">code</a>] </p>
-		</td>
-	</tr>
-	<tr>&nbsp</tr>
-	<tr>&nbsp</tr>
-	<tr>&nbsp</tr>
-	<tr>
-		<td width="306">
-		<img src="./indexpics/2025-nips.png" width="285px" style="box-shadow: 4px 4px 8px #888">
-		</td>				
-		<td>
-		<p><b>🎉 Follow-Your-Creation: Empowering 4D Creation through Video Inpainting</b></p>
-		<p><b>Yue Ma</b>, Kunyu Feng, Xinhua Zhang,   Hongyu Liu, David Junhao Zhang,   Jinbo Xing,   Yinhan Zhang,   Ayden Yang,  Zeyu Wang,  Qifeng Chen</p>
-		<em>arXiv preprint:2506.04590. 2025</em>
-		<p> [<a href="https://arxiv.org/pdf/2506.04590">paper</a>] [<a href="https://follow-your-creation.github.io/">code</a>] </p>
-		</td>
-	</tr>
-	<tr>&nbsp</tr>
-	<tr>&nbsp</tr>
-	<tr>&nbsp</tr>
-	<tr>
-		<td width="306">
-		<img src="./indexpics/2025-motion.png" width="285px" style="box-shadow: 4px 4px 8px #888">
-		</td>				
-		<td>
-		<p><b>🎉 Follow-Your-Motion: Video Motion Transfer via Efficient Spatial-Temporal Decoupled Finetuning</b></p>
-		<p><b>Yue Ma</b>, Yulong Liu, Qiyuan Zhu, Ayden Yang, Kunyu Feng, Xinhua Zhang, Zhifeng Li, Sirui Han, Chenyang Qi, Qifeng Chen</p>
-		<em>arXiv preprint:2506.05207. 2025</em>
-		<p> [<a href="https://arxiv.org/pdf/2506.05207">paper</a>] [<a href="https://follow-your-motion.github.io/">code</a>] </p>
-		</td>
-	</tr>
-	<!--########################-->
-	<!-- <tr>
-		<td width="306">
-		<img src="./indexpics/2022-simvtp-framework.png" width="285px" style="box-shadow: 4px 4px 8px #888">
-		</td>				
-		<td>
-		<p><b>SimVTP: Simple Video Text Pre-training with Masked Autoencoders</b></p>
-		<p><b>Yue Ma</b>, Tianyu Yang, Ying Shan, Xiu Li</p>
-		<em>arXiv preprint:2211.03490. 2022</em>
-		<p> [<a href="https://arxiv.org/pdf/2211.03490">paper</a>] [<a href="https://github.com/mayuelala/SimVTP">code</a>] </p>
-		</td>
-	</tr> -->
-	<!--########################-->
-
-	<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-	<td><b>/*Conference*/</b>
-	<p></p>
-	</td>
-	<tr>	
-	<td width="306">
-	<img src="./indexpics/2024-followyourclick.png" width="285px" style="box-shadow: 4px 4px 8px #888">
-	</td>				
-	<td>
-	<p><b>Follow-Your-Click: Open-domain Regional Image Animation via Short Prompts</b></p>
-	<p><b>Yue Ma</b>, Yingqing He, Hongfa Wang, Andong Wang, Chenyang Qi, Chengfei Cai, Xiu Li, Zhifeng Li, Heung-Yeung Shum, Wei Liu, Qifeng Chen</p>
-	<em>The 39th Annual AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2025</em>
-	<p> [<a href="https://arxiv.org/abs/2403.08268">paper</a>] [<a href="https://github.com/mayuelala/FollowYourClick">code</a>] [<a href="https://follow-your-click.github.io/">project page</a>] 
-	</p>
-	</td>
-	</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-	<tr>
-		<td width="306">
-		<img src="./indexpics/2024-Canvas.png" width="285px" style="box-shadow: 4px 4px 8px #888">
-		</td>				
-		<td>
-		<p><b>Follow-Your-Canvas: Higher-Resolution Video Outpainting with Extensive Content Generation</b></p>
-		<p>Qihua Chen*, <b>Yue Ma*</b>, Hongfa Wang*, Junkun Yuan*, Wenzhe Zhao, Qi Tian, Hongmei Wang, Shaobo Min, Qifeng Chen, Wei Liu</p>
-		<em>The 39th Annual AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2025</em>
-		<p> [<a href="hhttps://arxiv.org/abs/2409.01055">paper</a>] [<a href="https://github.com/mayuelala">code</a>] [<a href="https://github.com/mayuelala">project page</a>] 
-		</p>
-		</td>
-	</tr>
-	<tr>&nbsp</tr>
-
-		
-	<!--########################-->
-	<tr>
-		<td width="306">
-		<img src="./indexpics/2024-Fypv2.png" width="285px" style="box-shadow: 4px 4px 8px #888">
-		</td>				
-		<td>
-		<p><b>Follow-Your-Pose v2: Multiple-Condition Guided Character Image Animation for Stable Pose Control</b></p>
-		<p>Jingyun Xue, Hongfa Wang, Qi Tian, <b>Yue Ma</b>, Andong Wang, Zhiyuan Zhao, Shaobo Min, Wenzhe Zhao, Kaihao Zhang, Heung-Yeung Shum, Wei Liu, Mengyang Liu, Wenhan Luo</p>
-		<em>International Conference on Learning Representations(<b>ICLR</b>) 2025</em>
-		<p> [<a href="hhttps://arxiv.org/abs/2406.03035">paper</a>] [<a href="https://github.com/mayuelala">code</a>] [<a href="https://github.com/mayuelala">project page</a>] 
-		</p>
-		</td>
-	</tr>
-	<tr>&nbsp</tr>
-	<tr>&nbsp</tr>
-	<tr>&nbsp</tr>
-	<tr>&nbsp</tr>
-	<!--########################-->
-	<tr></tr>
-		<td width="306">
-		<img src="./indexpics/2024-followyouremoji.png" width="285px" style="box-shadow: 4px 4px 8px #888">
-		</td>				
-		<td>
-		<p><b>Follow-Your-Emoji: Fine-Controllable and Expressive Freestyle Portrait Animation</b></p>
-		<p><b>Yue Ma</b>, Hongyu Liu, Hongfa Wang, Heng Pan, Yingqing He, Junkun Yuan, Ailing Zeng, Chengfei Cai, Heung-Yeung Shum, Wei Liu, Qifeng Chen</p>
-		<em>The ACM Special Interest Group for Computer Graphics and Interactive Techniques(<b>Siggraph Asia</b>) 2024</em>
-		<p> [<a href="https://arxiv.org/abs/2406.01900">paper</a>] [<a href="https://github.com/mayuelala">code</a>] [<a href="https://follow-your-emoji.github.io/">project page</a>] 
-		</p>
-		</td>
-	</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-	<tr>
-		<td width="306">
-		<img src="./indexpics/2023-MagicStick.png" width="285px" style="box-shadow: 4px 4px 8px #888">
-		</td>				
-		<td>
-		<p><b>Follow-Your-Handle: Controllable Video Editing via Control Handle Transformations</b></p>
-		<p><b>Yue Ma</b>, Xiaodong Cun, Yingqing He, Chenyang Qi, Xintao Wang, Ying Shan, Xiu Li, Qifeng Chen</p>
-		<em>IEEE /CVF Winter Conference on Applications of Computer Vision (<b>WACV</b>), 2025</em>
-		<p> [<a href="https://arxiv.org/abs/2312.03047">paper</a>] [<a href="https://github.com/mayuelala/MagicStick">code</a>] [<a href="https://magic-stick-edit.github.io/">project page</a>] 
-		</p>
-		</td>
-	</tr>
-	<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-	<!--########################-->
-	<tr>
-		<td width="306">
-		<img src="./indexpics/2023-iccv-followyourpose.png" width="285px" style="box-shadow: 4px 4px 8px #888">
-		</td>				
-		<td>
-		<p><b>🕺🕺🕺 Follow-Your-Pose 💃💃💃: Pose-Guided Text-to-Video Generation using Pose-Free Videos</b></p>
-		<p><b>Yue Ma</b>, Yingqing He, Xiaodong Cun, Xintao Wang, Siran Chen, Ying Shan, Xiu Li, Qifeng Chen</p>
-		<em>The 38th Annual AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2024</em>
-		<p><a href="https://www.paperdigest.org/2024/09/most-influential-aaai-papers-2024-09/" style="color: red; display: inline;"><b>PaperDigest Most Influential Papers of AAAI 24</b></a></p>
-		<p> [<a href="https://arxiv.org/abs/2304.01186">paper</a>] [<a href="https://github.com/mayuelala/FollowYourPose">code</a>] [<a href="https://follow-your-pose.github.io/">project page</a>] 
-		<a target="_blank" href ="https://github.com/mayuelala/FollowYourPose"><img alt="GitHub stars" align="right" src="https://img.shields.io/github/stars/mayuelala/FollowYourPose?style=social"></a><a></a></p>
-		</td>
-	</tr>
-	<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-	<!--########################-->
-	<!-- <tr>
-		<td width="306">
-		<img src="./indexpics/2024-AAAI-MBEV.png" width="285px" style="box-shadow: 4px 4px 8px #888">
-		</td>				
-		<td>
-		<p><b>M-BEV: Masked BEV Perception for Robust Autonomous Driving</b></p>
-		<p>Siran Chen, <b>Yue Ma</b>, Yu Qiao, Yali Wang</p>
-		<em>The 38th Annual AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2024</em>
-		<p> [<a href="https://arxiv.org/abs/2304.01186">paper</a>] [<a href="https://github.com/mayuelala/FollowYourPose">code</a>] [<a href="https://follow-your-pose.github.io/">project page</a>] 
-		</td>
-	</tr>
-	<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr>
-		<tr>&nbsp</tr> -->
-	<!-- <tr>
-		<td width="306">
-		<img src="./indexpics/2023-icassp-audio.png" width="285px" style="box-shadow: 4px 4px 8px #888">
-		</td>				
-		<td>
-		<p><b>SemanticAC: Semantics-Assisted Framework for Audio Classification</b></p>
-		<p>Yicheng Xiao*, <b>Yue Ma*</b>, Shuyan Li, Hantao Zhou, Ran Liao, Xiu Li (* equal contribution)</p>
-		<em>IEEE International Conference on Acoustics, Speech and Signal Processing (<b>ICASSP</b>), 2023. </em>
-		<i></i>
-		<p> [<a href="https://arxiv.org/abs/2302.05940">paper</a>] [<a href="https://github.com/mayuelala">code</a>] </p>
-		</td>
-	</tr>
-	<tr>&nbsp</tr>
-	<tr>&nbsp</tr>
-	<tr>&nbsp</tr>
-	<tr>&nbsp</tr>
-	<tr>&nbsp</tr>
-	<tr>&nbsp</tr> -->
-	<tr>
-		<td width="306">
-		<img src="./indexpics/2022-mm-graph.png" width="285px" style="box-shadow: 4px 4px 8px #888">
-		</td>				
-		<td>
-		<p><b>Visual Knowledge Graph for Human Action Reasoning in Videos</b></p>
-		<p><b>Yue Ma</b>, Yali Wang, Yue Wu, Ziyu Lyu, Siran Chen, Xiu Li, Yu Qiao</p>
-		<em>The 30th ACM International Conference on Multimedia. (<b>ACM MM</b>), 2022. </em>
-		<i><p style="color: red; display: inline;">(<b>Oral Presentation</b>)</p></i>
-		<p> [<a href="https://dl.acm.org/doi/abs/10.1145/3503161.3548257">paper</a>] [<a href="https://github.com/mayuelala/AKU">code</a>] </p>
-		</td>
-	</tr>
-	<tr>&nbsp</tr>
-    	<tr>&nbsp</tr>
-    	<tr>&nbsp</tr>
-		
-	<!-- <td><b>/*Journal*/</b>
-		<p></p>
-		</td>
-		
-		<tr>
-			<td width="306">
-			<img src="./indexpics/2023-TMM-mmlab.png" width="285px" style="box-shadow: 4px 4px 8px #888">
-			</td>				
-			<td>
-			<p><b>Attentive Snippet Prompting for Video Retrieval</b></p>
-			<p>Siran Chen, Qinglin Xu, <b>Yue Ma</b>, Yu Qiao, Yali Wang</p>
-			<em>IEEE Transactions on Multimedia (<b>TMM</b>), 2024. </em>
-			<i></i>
-			<p> [<a href="https://ieeexplore.ieee.org/abstract/document/10268993/">paper</a>] [<a href="https://ieeexplore.ieee.org/abstract/document/10268993/">code</a>] </p>
-			</td>
-		</tr> -->
-		<tr>&nbsp</tr>
-			<tr>&nbsp</tr>
-			<tr>&nbsp</tr>
-			<tr>&nbsp</tr>
-			<tr>&nbsp</tr>
-	
-
-</tbody></table>
-<!--
-</div>
--->
 
 
 
@@ -454,16 +267,17 @@
 
 
 
-
+<!--脚注部分-->
 <div id="footer">
 	<div id="footer-text"></div>
 </div>
 	<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=777777&w=487&t=tt&d=xeJu_Kwek6AfO5eDCKFQ1iDWjzFQPLT_dNcYY3WLmrY&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=5b1717'></script>
 	<p><center> &copy;Noah Loake, Update: 08/2025 </center></p>
 
-
+<!--收尾部分-->
 </div>
 </body></html>
+
 
 
 
