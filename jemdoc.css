@@ -136,7 +136,7 @@ strong {
 
 
 h1, h2, h3 {
-	color: #527bbd;
+	color: #93150B;
 	margin-top: 0.7em;
 	margin-bottom: 0.5em;
 	padding-bottom: 0.2em;
@@ -334,6 +334,7 @@ span.comment, span.comment > *, span.string, span.string > * {
 }
 
 div#toptitle h1, #layout-content div#toptitle h1 {
+    color: #93150B;
 	margin-bottom: 0.0em;
 	padding-bottom: 0.1em;
 	padding-top: 0;
@@ -372,4 +373,3 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
-
