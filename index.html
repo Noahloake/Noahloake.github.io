@@ -30,6 +30,37 @@
 .education-entry p {
     margin: 0.25em 0; /* 调整段落的垂直边距，使其看起来更协调 */
 }
+	/* CSS for News Section */
+.news-box {
+    height: 100px; /* 高度减半为100px */
+    overflow-y: auto; /* 仅在垂直方向内容溢出时显示滚动条 */
+    border: 1px solid #e0e0e0; /* 添加一个浅灰色边框，使其看起来像个盒子 */
+    padding: 10px 15px; /* 增加内边距，让内容不贴边 */
+    border-radius: 5px; /* 轻微的圆角，更具现代感 */
+    background-color: #f9f9f9; /* 淡淡的背景色，与页面其他部分区分 */
+}
+
+.news-list {
+    list-style-type: none; /* 移除列表默认的黑点 */
+    padding-left: 0;
+    margin: 0;
+}
+
+.news-list li {
+    margin-bottom: 12px; /* 增加每条新闻之间的间距 */
+    line-height: 1.5; /* 增加行高，提升可读性 */
+}
+
+.news-date {
+    display: inline-block; /* 让日期可以设置内外边距 */
+    background-color: #e7e7e7; /* 日期的背景色 */
+    color: #333;
+    padding: 2px 8px; /* 日期的内边距 */
+    border-radius: 10px; /* 胶囊形状的圆角 */
+    font-size: 0.8em; /* 字体稍小 */
+    font-weight: bold;
+    margin-right: 10px; /* 与新闻内容拉开距离 */
+}
 </style>
 
 <!--容器空间设定-->
@@ -103,16 +134,24 @@
 </div>
 
 	
-
-<h2>News</h2>
-<div style="height: 200px; overflow: auto;">
-<ul>
-	<li>
-		[04/2025] One paper are accepted by <a href="https://aaai.org/conference/aaai/aaai-25/">ACM MM 2025</a> !  
-	</li>
-</ul>
+<!--第二部分：我的最新消息-->
+	<h2>News</h2>
+<div class="news-box">
+    <ul class="news-list">
+        <li>
+            <span class="news-date">08/2025</span>
+            🎉 My first English-language paper has been accepted for publication in <i><a href="https://www.sciencedirect.com/journal/finance-research-letters">Financial Research Letters</a></i> (FRL). 
+        </li>
+        <li>
+            <span class="news-date">07/2025</span>
+            Participated in fieldwork for the <a href="https://cer.gsm.pku.edu.cn/index.htm" target="_blank">Enterprise Survey on Innovation and Entrepreneurship in China (ESIEC)</a> across Zhejiang, Gansu, and Liaoning provinces. 
+        </li>
+        <li>
+            <span class="news-date">05/2025</span>
+            I presented my paper, "Connection-Based Favoritism Within the Courtroom," at the Development and Political Economy Seminar at PKU. 
+        </li>
+    </ul>
 </div>
-
 	
 
 
@@ -425,6 +464,7 @@
 
 </div>
 </body></html>
+
 
 
 
