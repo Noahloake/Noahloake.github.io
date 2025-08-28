@@ -211,6 +211,26 @@
 .teaching-table .col-title { width: 37%; }
 .teaching-table .col-number { width: 15%; }
 .teaching-table .col-instructor { width: 30%; }
+	/* CSS for Course Notes Section */
+.notes-list {
+    list-style-type: none; /* 移除列表的默认黑点 */
+    padding-left: 0;
+}
+
+.notes-list li {
+    display: flex; /* 启用Flexbox布局 */
+    justify-content: space-between; /* 将内容推向两端：文字在左，按钮在右 */
+    align-items: center; /* 垂直居中对齐 */
+    padding: 12px 0; /* 增加上下内边距 */
+    border-bottom: 1px solid #eeeeee; /* 添加浅灰色分隔线 */
+}
+
+/* 课程的补充信息（时间、教师）使用稍浅的颜色 */
+.notes-list .course-info {
+    color: #666;
+    font-size: 0.9em;
+    margin-left: 8px; /* 与课程名称拉开一点距离 */
+}
 </style>
 
 <!--************************************************************************************************************************************-->	
@@ -297,7 +317,7 @@
     <ul class="news-list">
         <li>
             <span class="news-date">08/2025</span>
-            🎉 My first English journal paper has been accepted for publication in <i><a href="https://www.sciencedirect.com/journal/finance-research-letters">Financial Research Letters</a></i> (FRL) with Yanlong Chen. 
+            🎉 My first English journal paper has been accepted for publication in <i><a href="https://www.sciencedirect.com/journal/finance-research-letters">Finance Research Letters</a></i> (FRL) with Yanlong Chen. 
         </li>
         <li>
             <span class="news-date">07/2025</span>
@@ -416,6 +436,46 @@
 
 
 <!--************************************************************************************************************************************-->	
+<h3>Notes & Reading Lists</h3>
+<ul class="notes-list">
+    <li>
+        <span>
+            Economic Analysis of Shocks
+            <span class="course-info">(Summer 2024, NSD, Peking University)</span>
+        </span>
+        <a href="[此处替换为 Reading List 的PDF链接]" class="pub-link" target="_blank">[Reading List]</a>
+    </li>
+    <li>
+        <span>
+            Advanced Macroeconomics I
+            <span class="course-info">(Fall 2023, Prof. Liutang Gong)</span>
+        </span>
+        <a href="[此处替换为 Lectures 的PDF链接]" class="pub-link" target="_blank">[Lectures]</a>
+    </li>
+    <li>
+        <span>
+            Advanced Dynamic Optimization Methods
+            <span class="course-info">(Fall 2023, Prof. Liutang Gong)</span>
+        </span>
+        <a href="[此处替换为 Lectures 的PDF链接]" class="pub-link" target="_blank">[Lectures]</a>
+    </li>
+    <li>
+        <span>
+            Advanced Econometrics I
+            <span class="course-info">(Fall 2023, Prof. Jihai Yu)</span>
+        </span>
+        <a href="[此处替换为 Lectures 的PDF链接]" class="pub-link" target="_blank">[Lectures]</a>
+    </li>
+    <li>
+        <span>
+            Advanced Microeconomics I
+            <span class="course-info">(Fall 2023, Prof. Qi Wu)</span>
+        </span>
+        <a href="[此处替换为 Lectures 的PDF链接]" class="pub-link" target="_blank">[Lectures]</a>
+    </li>
+</ul>
+
+<!--************************************************************************************************************************************-->	
 <!--脚注部分-->
 <div id="footer">
 	<div id="footer-text"></div>
@@ -425,6 +485,7 @@
 <!--收尾部分-->
 </div>
 </body></html>
+
 
 
 
