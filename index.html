@@ -15,29 +15,70 @@
     .smaller-image {
       width: 20%;
     }
+	/* CSS for Personal Info Section */
+	#toptitle h1 {
+        color: #001f3f; /* 海军蓝 */
+		font-size: 2em;
+		margin-bottom: 0.2em;
+	}
+	table img {
+		border-radius: 8px; /* 照片圆角 */
+		box-shadow: 0 3px 8px rgba(0,0,0,0.12); /* 照片阴影 */
+		transition: transform 0.3s ease; /* 平滑过渡 */
+	}
+	table img:hover {
+		transform: scale(1.03); /* 鼠标悬停时轻微放大 */
+	}
+	.contact-note {
+		color: #2E59A7;
+		display: inline-block;
+		margin-top: 0.6em;
+	}
+	/* CSS for Biography Highlight */
+	.highlight-note {
+		background-color: #f0f8ff; /* 淡蓝色背景 */
+		border-left: 4px solid #2E59A7; /* 蓝色左边框 */
+		padding: 12px 16px;
+		margin: 1em 0;
+		border-radius: 4px;
+		font-style: italic;
+	}
+	.highlight-note i {
+		color: #2E59A7;
+		font-weight: 500;
+	}
 	/* CSS for Education Section Layout */
 .education-entry {
-    margin-bottom: 1.5em; /* 为每个教育经历条目之间增加一些垂直间距 */
+    margin-bottom: 0.8em; /* 更紧凑的垂直间距 */
 }
 .entry-header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    margin-bottom: 0.2em;
 }
 .entry-header h4 {
-    margin: 0; /* 移除大学名称的默认边距，使其更紧凑 */
+    margin: 0;
+    font-size: 1em;
+    font-weight: normal;
+}
+.entry-header span {
+    color: #666;
+    font-size: 0.9em;
 }
 .education-entry p {
-    margin: 0.25em 0; /* 调整段落的垂直边距，使其看起来更协调 */
+    margin: 0.15em 0;
+    line-height: 1.4;
 }
 	/* CSS for News Section */
 .news-box {
-    height: 200px; /* 高度减半为200px */
+    height: 220px; /* 适当增加高度，提供更好的阅读体验 */
     overflow-y: auto; /* 仅在垂直方向内容溢出时显示滚动条 */
-    border: 1px solid #e0e0e0; /* 添加一个浅灰色边框，使其看起来像个盒子 */
-    padding: 10px 15px; /* 增加内边距，让内容不贴边 */
-    border-radius: 5px; /* 轻微的圆角，更具现代感 */
-    background-color: #f9f9f9; /* 淡淡的背景色，与页面其他部分区分 */
+    border: 1px solid #d8d8d8; /* 边框颜色略深，增强视觉层次 */
+    padding: 12px 18px; /* 增加内边距，让内容不贴边 */
+    border-radius: 6px; /* 圆角更优雅 */
+    background-color: #fafafa; /* 淡淡的背景色，与页面其他部分区分 */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06); /* 轻微阴影，增加立体感 */
 }
 
 .news-list {
@@ -47,73 +88,87 @@
 }
 
 .news-list li {
-    margin-bottom: 12px; /* 增加每条新闻之间的间距 */
-    line-height: 1.5; /* 增加行高，提升可读性 */
+    margin-bottom: 14px; /* 增加每条新闻之间的间距 */
+    line-height: 1.6; /* 增加行高，提升可读性 */
 }
 
 .news-date {
     display: inline-block; /* 让日期可以设置内外边距 */
-    background-color: #e7e7e7; /* 日期的背景色 */
-    color: #333;
-    padding: 2px 8px; /* 日期的内边距 */
-    border-radius: 10px; /* 胶囊形状的圆角 */
-    font-size: 0.8em; /* 字体稍小 */
+    background-color: #f0f0f0; /* 使用浅灰色 */
+    color: #444444; /* 深灰色文字 */
+    padding: 3px 10px; /* 日期的内边距 */
+    border-radius: 12px; /* 胶囊形状的圆角 */
+    font-size: 0.85em; /* 字体稍小 */
     font-weight: bold;
-    margin-right: 10px; /* 与新闻内容拉开距离 */
+    margin-right: 1px; /* 与新闻内容拉开距离 */
 }
 	/* CSS for Publications Section */
 .publications-list {
-    list-style: none; /* 移除默认的数字列表样式 */
+    list-style: none; /* 移除默认的列表样式 */
     padding-left: 0;
-    counter-reset: pub-counter; /* 初始化一个名为 pub-counter 的计数器 */
 }
 
 .publications-list li {
-    counter-increment: pub-counter; /* 每个列表项让计数器加一 */
-    margin-bottom: 2.5em; /* 增加条目之间的垂直间距，使其不拥挤 */
-    padding-left: 2em; /* 为自定义的数字编号留出空间 */
-    position: relative; /* 为绝对定位的伪元素提供参照 */
-    line-height: 1.6; /* 增加行高，提升可读性 */
-}
-
-.publications-list li::before {
-    content: counter(pub-counter) "."; /* 显示 "1.", "2." 等 */
-    position: absolute;
-    left: 0;
-    top: 0;
-    font-weight: bold;
-    font-size: 1.2em;
-    color: #333;
+    margin-bottom: 1em; /* 统一调整条目间距，适中且不拥挤 */
+    line-height: 1.2; /* 增加行高，提升可读性 */
 }
 
 .pub-header {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bold;
     margin-bottom: 0.3em;
+    color: #001f3f; /* 海军蓝 */
+}
+.pub-header i {
+    font-weight: normal; /* 斜体部分不使用粗体 */
+    font-style: italic;
+    margin-left: 8px; /* 与题目保持适当间距 */
+    color: #444444; /* 深灰色文字 */
 }
 
 .pub-meta {
     font-size: 1em;
     color: #333;
-    margin-bottom: 0.6em;
+    margin-bottom: 0.5em;
+    line-height: 1.5;
 }
 
 .pub-journal {
     font-style: italic; /* 期刊名使用斜体是学术惯例 */
 }
 
+.pub-authors {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+.pub-presentations {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+    margin-top: 0.4em;
+}
+
+.pub-presentations em {
+    font-style: normal;
+    font-weight: bold;
+    color: #333;
+}
+
 .pub-summary {
     font-size: 0.95em;
     color: #555; /* 摘要部分使用稍浅的颜色以区分 */
     text-align: justify; /* 两端对齐，更显整洁 */
+    margin-top: 0.4em;
 }
 
 .pub-link {
     text-decoration: none;
     border: 1px solid #0056b3; /* 链接按钮边框颜色 */
     color: #0056b3; /* 链接按钮文字颜色 */
-    padding: 2px 10px;
-    border-radius: 5px;
+    padding: 3px 10px;
+    border-radius: 4px;
     font-size: 0.8em;
     margin-left: 5px;
     white-space: nowrap; /* 防止按钮内的文字换行 */
@@ -123,63 +178,6 @@
 .pub-link:hover {
     background-color: #0056b3; /* 鼠标悬停时改变背景和文字颜色 */
     color: #ffffff;
-}
-	/* CSS for Working Papers Section */
-.working-papers-list {
-    list-style-type: none; /* 移除列表的默认黑点 */
-    padding-left: 0;
-}
-
-.working-papers-list li {
-    padding-bottom: 1.5em; /* 底部内边距 */
-    margin-bottom: 1.5em;  /* 和下一个条目的外边距 */
-    border-bottom: 1px solid #eeeeee; /* 用一条浅灰色细线分隔每个条目 */
-}
-
-/* 最后一个条目不需要分隔线 */
-.working-papers-list li:last-child {
-    border-bottom: none;
-    margin-bottom: 0;
-}
-
-.wp-header {
-    margin-bottom: 0.5em;
-}
-
-.wp-title {
-    font-size: 1.1em;
-    font-weight: bold;
-    color: #333;
-}
-
-/* 这是为 "R&R" 状态设计的徽章样式 */
-.wp-status {
-    display: inline-block;
-    font-size: 0.8em;
-    font-weight: bold;
-    padding: 4px 10px;
-    border-radius: 5px;
-    background-color: #e7f3ff; /* 淡蓝色背景 */
-    color: #0056b3; /* 深蓝色文字 */
-    margin-left: 10px;
-    vertical-align: middle; /* 确保徽章和标题文字垂直对齐 */
-}
-
-.wp-authors {
-    margin-bottom: 0.75em;
-    color: #333;
-}
-
-.wp-presentations {
-    font-size: 0.9em;
-    color: #666; /* 稍浅的颜色，作为次要信息 */
-    line-height: 1.5;
-}
-
-.wp-presentations em {
-    font-style: normal; /* 取消斜体 */
-    font-weight: bold; /* 加粗 "Presented at:" */
-    color: #333;
 }
 	
 	/* CSS for the new Teaching Section List - Final Adjustment */
@@ -192,25 +190,31 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 2px 0; /* 修改：垂直间距已从 15px 减小到 10px */
-    /* 已移除 border-bottom 分隔线 */
+}
+
+.teaching-list li:last-child {
+    border-bottom: none; /* 最后一个不需要分隔线 */
 }
 
 .teaching-list .course-main {
     padding-right: 20px;
+    flex: 1;
 }
 
 .teaching-list .course-details {
     text-align: right;
     white-space: nowrap;
-    color: #555;
-    font-size: 0.9em;
+    color: #444444; /* 深灰色文字 */
+    line-height: 1.4;
 }
 
 .teaching-list .course-title {
-    font-weight: bold;
-    display: block;
-    margin-bottom: 5px;
+    display: inline; /* 改为inline，使老师信息可以在同一行 */
+    color: #333;
+    font-size: 1.02em;
+}
+.teaching-list .course-main a {
+    font-weight: normal; /* 确保链接（老师信息）不加粗 */
 }
 	
 	/* CSS for Course Notes Section */
@@ -223,14 +227,15 @@
     display: flex; /* 启用Flexbox布局 */
     justify-content: space-between; /* 将内容推向两端：文字在左，按钮在右 */
     align-items: center; /* 垂直居中对齐 */
-    padding: 2px 0; /* 增加上下内边距 */
+
+.notes-list li:last-child {
+    border-bottom: none; /* 最后一个不需要分隔线 */
 }
 
 /* 课程的补充信息（时间、教师）使用稍浅的颜色 */
 .notes-list .course-info {
-    color: #666;
-    font-size: 0.9em;
-    margin-left: 8px; /* 与课程名称拉开一点距离 */
+    color: #444444; /* 深灰色文字 */
+    margin-left: 2px; /* 与课程名称拉开一点距离 */
 }
 </style>
 
@@ -250,7 +255,7 @@
 				<div id="toptitle">					
 					<h1>Noah Loake </h1>
 					</div>
-				<h3>🎓 Second Year Phd Student</h3>
+				<h3>🎓 Third Year Phd Student</h3>
 				<p> Department of Applied Economics </p>
 				<p>Guanghua School of Management, Peking University. </p>
 				<p><i>Email</i>: <a href="wangbencheng@stu.pku.edu.cn">wangbencheng@stu.pku.edu.cn</a></p>
@@ -267,9 +272,9 @@
 
 <!--************************************************************************************************************************************-->	
 <!--第二部分：个人简介-->
-<h2>Biography</h2>
+<h2>BIOGRAPHY</h2>
 <p>
-    I am a second-year PhD candidate in the Department of Applied Economics at the <a href="https://en.gsm.pku.edu.cn/index.htm" target="_blank">Guanghua School of Management, Peking University</a>. 
+    I am a third-year PhD candidate in the Department of Applied Economics at the <a href="https://en.gsm.pku.edu.cn/index.htm" target="_blank">Guanghua School of Management, Peking University</a>. 
     I am fortunate to be advised by <a href="https://en.gsm.pku.edu.cn/faculty/x.zhang/" target="_blank">Prof. Xiaobo Zhang</a> and <a href="https://en.gsm.pku.edu.cn/faculty/zhoula/" target="_blank">Prof. Li-An Zhou</a>.
     Previously, I received my M.A. in Economics from <a href="http://en.ruc.edu.cn/" target="_blank">Renmin University of China</a> and a B.A. with a minor in Economics from <a href="https://en.whu.edu.cn/" target="_blank">Wuhan University</a>.
 </p>
@@ -279,16 +284,16 @@
     I utilize large-scale firm-level and government-related datasets to explore government-business interactions within the context of China.
 </p>
 
-<p><i style="color: #2E59A7; display: inline;">Feel free to contact me by email if you are interested in discussing or collaborating with me.</i></p>
+<i class="contact-note">Feel free to contact me by email if you are interested in discussing or collaborating with me.</i>
 
 <!--************************************************************************************************************************************-->	
 <!--教育背景-->
-<h3>Education</h3>
+<h3>EDUCATION</h3>
 
 <div class="education-entry">
     <div class="entry-header">
-        <h4>Peking University, Guanghua School of Management</h4>
-        <span>Sep 2023 - Present</span>
+        <h4><b>Peking University, Guanghua School of Management</b></h4>
+        <span><i>Sep 2023 - Present</i></span>
     </div>
     <p>PhD Candidate in Applied Economics</p>
     <p><i>Dissertation Committee: <a href="https://en.gsm.pku.edu.cn/faculty/x.zhang/" target="_blank">Prof. Xiaobo Zhang</a>, <a href="https://en.gsm.pku.edu.cn/faculty/zhoula/" target="_blank">Prof. Li-An Zhou</a></i></p>
@@ -296,16 +301,16 @@
 
 <div class="education-entry">
     <div class="entry-header">
-        <h4>Renmin University of China, School of Economics</h4>
-        <span>Sep 2021 - Jul 2023</span>
+        <h4><b>Renmin University of China, School of Economics</b></h4> 
+        <span><i>Sep 2021 - Jul 2023</i></span>
     </div>
     <p>M.A. in Economics</p>
 </div>
 
 <div class="education-entry">
     <div class="entry-header">
-        <h4>Wuhan University, School of Economics and Management</h4>
-        <span>Sep 2016 - Jul 2020</span>
+        <h4><b>Wuhan University, School of Economics and Management</b></h4>
+        <span><i>Sep 2016 - Jul 2020</i></span>
     </div>
     <p>B.A. with a Minor in Economics</p>
 </div>
@@ -313,24 +318,24 @@
 	
 <!--************************************************************************************************************************************-->		
 <!--第二部分：我的最新消息-->
-	<h2>News</h2>
+<h3>NEWS</h3>
 <div class="news-box">
     <ul class="news-list">
 		<li>
 			<span class="news-date">11/2025</span>
-			I will present my latest research on government arrears at the < a href="https://mp.weixin.qq.com/s/z9F84WTtEwZe7orXdKWTzA">Academic Seminar on Small and Medium-sized Enterprises (SMEs)</a>.
+			I will present my latest research on government arrears at the <a href="https://mp.weixin.qq.com/s/z9F84WTtEwZe7orXdKWTzA"> Academic Seminar on Small and Medium-sized Enterprises (SMEs)</a>.
 		</li>
 		<li>
 			<span class="news-date">09/2025</span>
-			I will be traveling to Xingcheng City in late September to conduct field research on the swimwear industrial cluster, an initiative organized by Professor <i>Zhang Xiaobo</i>.
+			I will be traveling to <i>Xingcheng, Huludao City</i> in Liaoning Province in late September to conduct field research on the swimwear industrial cluster, an initiative organized by Professor <i>Zhang Xiaobo</i>.
 		</li>
 		<li>
 			<span class="news-date">09/2025</span>
-			I am organizing the Econ Lunch PhD student workshop for the 2025 fall semester as the responsible person, with the support of the <i>Applied Economics Department</i> of the <i>Guanghua School of Management</i>.
+			I am organizing the <b>Econ Lunch PhD</b> student workshop for the 2025 fall semester as the responsible person, with the support of the <i>Applied Economics Department</i> of the <i>Guanghua School of Management</i>.
 		</li>
         <li>
             <span class="news-date">08/2025</span>
-            🎉 My first English journal paper has been accepted for publication in <i><a href="https://www.sciencedirect.com/journal/finance-research-letters">Finance Research Letters</a></i> (FRL) with Yanlong Chen. 
+            My first English journal paper has been accepted for publication in <i><a href="https://www.sciencedirect.com/journal/finance-research-letters">Finance Research Letters</a></i> (FRL) with Yanlong Chen. 
         </li>
         <li>
             <span class="news-date">07/2025</span>
@@ -346,127 +351,110 @@
 	
 <!--************************************************************************************************************************************-->		
 <!--第三部分：我的发表 Selected Publications -->
-<h2>Selected Publications</h2>
-<ol class="publications-list">
+<h2>PUBLICATIONS</h2>
+<ul class="publications-list">
     <li>
         <div class="pub-header">
             Does the Deleveraging Policy Increase Corporate Labor Outsourcing? Evidence from China
         </div>
         <div class="pub-meta">
-            Yanlong Chen and <strong>Bencheng Wang</strong>. <span class="pub-journal">Finance Research Letters</span>, Vol. 85, 108269, 2025.  
+            Yanlong Chen and Bencheng Wang*. <span class="pub-journal">Finance Research Letters</span>, Vol. 85, 108269, 2025.  
 			<a href="https://doi.org/10.1016/j.frl.2025.108269" class="pub-link" target="_blank">Link</a>
             <a href="./file/2508FRL.pdf" class="pub-link" target="_blank">PDF</a>
         </div>
-
     </li>
 
-
-</ol>
+</ul>
 	
 <!--************************************************************************************************************************************-->	
 <!--第四部分：工作论文 Working Papers -->
-<h2>Working Papers</h2>
+<h3>WORKING PAPERS</h3>
 <ul class="publications-list">
     <li>
         <div class="pub-header">
-            <span class="wp-title">Money Flows: Bank Deregulation, Local Protection and Credit Reallocation</span>
+            Money Flows: Bank Deregulation, Local Protection and Credit Reallocation <i>2025/11, Revise and Resubmit</i>
         </div>
-        <div class="wp-authors">
-            <strong>Bencheng Wang</strong>, 2025, <i>Revise & Resubmit</i>
-        </div>
-        <div class="wp-presentations">
-            <em>Presented at:</em> The 21st China Young Economists Forum (SOE@CASS), Young Economists Society (YES) Shanghai Forum (SOE@SUFE), The 5th National Development Youth Forum (NSD@PKU).
+        <div class="pub-presentations">
+            <i>Presented at:</i> The 21st China Young Economists Forum (SOE@CASS), Young Economists Society (YES) Shanghai Forum (SOE@SUFE), The 5th National Development Youth Forum (NSD@PKU).
         </div>
     </li>
- 	<li>
-        <div class="wp-header">
-            <span class="wp-title">An Accidental Wilderness: Labor Constraints, Migration, and the Reclaiming of China's Slopes </span>
+    <li>
+        <div class="pub-header">
+            Labor Constraints, Migration, and the Reclaiming of China's Slopes <i>2025/11, Under Review</i>
         </div>
-        <div class="wp-authors">
-            <strong>Bencheng Wang</strong> and Yanlong Chen, 2025.
-        </div>
-        <div class="wp-presentations">
-            <em>Presented at:</em> Development and Political Economics Seminar NSD@PKU.
+        <div class="pub-presentations">
+            <i>Presented at:</i> Development and Political Economics Seminar NSD@PKU.
         </div>
     </li>
-	<li>
-		<div class="wp-header">
-			<span class="wp-title">Asymmetric Compliance and Strategic Substitution: How Local Governments in China Neutralize Central Policies </span>
-		</div>
-		<div class="wp-authors">
-            <strong>Bencheng Wang</strong>, 2025, <i>New Draft Coming Soon</i>
+    <li>
+        <div class="pub-header">
+            Asymmetric Compliance and Strategic Substitution <i>2025/11</i>
         </div>
-	</li>
-	
+    </li>	
 </ul>
-
+<!--************************************************************************************************************************************-->	
+<!--第五部分：工作中论文 Working Inprogess Papers -->
+<h3>NPROGRESS PAPERS</h3>
+<ul class="publications-list">
+    <li>
+        <div class="pub-header">
+            When the State Doesn't Pay: Public Sector Arrears and Firm Behavior in China <i>2025/11</i>
+        </div>
+        <div class="pub-presentations">
+            <i>Presented at:</i> Academic Seminar on Small and Medium-sized Enterprises (SMEs) GSM@PKU.
+        </div>
+    </li>
+</ul>
 
 <!--************************************************************************************************************************************-->	
 <!--第五部分：助教经历 -->
-<h2>Teaching Experience</h2>
+<h2>TEACHING</h2>
 
 <ul class="teaching-list">
     <li>
         <div class="course-main">
-            <span class="course-title">Economics 101 (UG)</span>
-            <span>Instructor: <a href="https://en.gsm.pku.edu.cn/faculty/jackie.wang/" target="_blank">Hui Wang</a></span>,
-			<a href="https://en.gsm.pku.edu.cn/faculty/qiao_liu/" target="_blank">Qiao Liu</a>, 
-                <a href="https://en.gsm.pku.edu.cn/faculty/chenyuyu/" target="_blank">Yuyu Chen</a>
+            <span class="course-title">Economics 101 (UG)</span> (<a href="https://en.gsm.pku.edu.cn/faculty/jackie.wang/" target="_blank">Hui Wang</a>, <a href="https://en.gsm.pku.edu.cn/faculty/qiao_liu/" target="_blank">Qiao Liu</a>, <a href="https://en.gsm.pku.edu.cn/faculty/chenyuyu/" target="_blank">Yuyu Chen</a>)
         </div>
         <div class="course-details">
-            PKU 02831110<br>
-            Fall 2025; Fall 2024
+            PKU Fall 2025; Fall 2024
         </div>
     </li>
     <li>
         <div class="course-main">
-            <span class="course-title">Intermediate Microeconomics (UG)</span>
-            <span>Instructor: <a href="https://www.xinchengqiu.com/" target="_blank">Xincheng Qiu</a></span>
+            <span class="course-title">Intermediate Microeconomics (UG)</span> (<a href="https://www.xinchengqiu.com/" target="_blank">Xincheng Qiu</a>)
         </div>
         <div class="course-details">
-            PKU 02832110<br>
-            Spring 2025
+            PKU Spring 2025
         </div>
     </li>
     <li>
         <div class="course-main">
-            <span class="course-title">Advanced Econometrics II (Ph.D.)</span>
-            <span>Instructors: 
-                <a href="https://www.qiwuecon.com/" target="_blank">Qi Wu</a>, 
-                <a href="https://sites.google.com/view/lukashenseleconomics/" target="_blank">Lukas Hensel</a>, 
-                <a href="https://www.alanyang.net/" target="_blank">Yu (Alan) Yang</a>
-            </span>
+            <span class="course-title">Advanced Econometrics II (Ph.D.)</span> (<a href="https://www.qiwuecon.com/" target="_blank">Qi Wu</a>, <a href="https://sites.google.com/view/lukashenseleconomics/" target="_blank">Lukas Hensel</a>, <a href="https://www.alanyang.net/" target="_blank">Yu (Alan) Yang</a>)
         </div>
         <div class="course-details">
-            PKU 02814730<br>
-            Spring 2025
+            PKU Spring 2025
         </div>
     </li>
     <li>
         <div class="course-main">
-            <span class="course-title">Advanced Macroeconomics (PG)</span>
-            <span>Instructor: <a href="https://en.gsm.pku.edu.cn/faculty/ytang/" target="_blank">Yao Tang</a></span>
+            <span class="course-title">Advanced Macroeconomics (PG)</span> (<a href="https://en.gsm.pku.edu.cn/faculty/ytang/" target="_blank">Yao Tang</a>)
         </div>
         <div class="course-details">
-            PKU 02812010<br>
-            Fall 2024
+            PKU Fall 2024
         </div>
     </li>
     <li>
         <div class="course-main">
-            <span class="course-title">Panel Data Causal Inference Methods (PG)</span>
-            <span>Instructor: <a href="https://yiqingxu.org/" target="_blank">Yiqing Xu</a></span>
+            <span class="course-title">Panel Data Causal Inference Methods (PG)</span> (<a href="https://yiqingxu.org/" target="_blank">Yiqing Xu</a>)
         </div>
         <div class="course-details">
-            -<br>
             Spring 2023
         </div>
     </li>
 </ul>
 
-
 <!--************************************************************************************************************************************-->	
-<h3>Notes & Reading Lists</h3>
+<h3>LECTURE NOTES</h3>
 <ul class="notes-list">
     <li>
         <span>
@@ -510,75 +498,11 @@
 <div id="footer">
 	<div id="footer-text"></div>
 </div>
-	<p><center> &copy;Noah Loake, Update: 08/2025 </center></p>
+	<p style="text-align: center; color: #999; font-size: 0.9em; margin-top: 2em; padding-top: 1em; border-top: 1px solid #e5e5e5;">
+		&copy; 2025 Noah Loake | Last Updated: November 2025
+	</p>
 
 <!--收尾部分-->
 </div>
 </body></html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
